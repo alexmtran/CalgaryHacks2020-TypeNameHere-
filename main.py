@@ -47,30 +47,33 @@ courses = {
 	},
 }
 
+result = []
+
+def getPrerequisitesDeep(selectedCourse, courses):
+	selectedCourse = courses[selectedCourse]
+
+	if('prerequisites' not in selectedCourse.keys()):
+		return
+
+	choices = selectedCourse['prerequisites'].split('|')
+
+	print(choices)
+	choice = input('Select a choice (starting at 0 from left to right):')
+
+	choice = choices[int(choice)]
+
+	prerequisites = choice.split(';')
+
+	for prerequisite in prerequisites:
+		global result
+		result.append(prerequisite)
+		
+		if(prerequisite in courses):
+			getPrerequisitesDeep(prerequisite, courses)
 
 
+selectedCourse = input('select a course:')
 
+getPrerequisitesDeep(selectedCourse, courses)
 
-
-
-
-def generateOut(dest):
-
-	name = courses[dest]['course_name']
-	p = courses[dest]['prerequisites']
-	if p == '' or dest not in courses:
-		output.append(dest)
-	if '|' in p:
-		print(p.split('|'))
-		choose = input().upper()
-		pList = p.split('|')
-		for i in pList:
-			if choose == i:
-				output.append(i)
-				generateOut(i)
-	else :
-		output.append(p)
-dest = input()
-output = []
-generateOut(dest)
-print(output)
+print(result)
