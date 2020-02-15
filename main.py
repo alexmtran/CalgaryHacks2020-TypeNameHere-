@@ -30,7 +30,8 @@ courses = {
 
 	'CPSC 217': {
 		'course_name': 'Computer Science 219',
-		'course_code': 'CPSC 217'
+		'course_code': 'CPSC 217',
+		'prerequisites': ''
 	},
 
 	'CPSC 233': {
@@ -41,8 +42,35 @@ courses = {
 
 	'CPSC 231': {
 		'course_name': 'Computer Science 231',
-		'course_code': 'CPSC 231'
+		'course_code': 'CPSC 231',
+		'prerequisites': ''
 	},
 }
 
-print(courses)
+
+
+
+
+
+
+
+def generateOut(dest):
+
+	name = courses[dest]['course_name']
+	p = courses[dest]['prerequisites']
+	if p == '' or dest not in courses:
+		output.append(dest)
+	if '|' in p:
+		print(p.split('|'))
+		choose = input().upper()
+		pList = p.split('|')
+		for i in pList:
+			if choose == i:
+				output.append(i)
+				generateOut(i)
+	else :
+		output.append(p)
+dest = input()
+output = []
+generateOut(dest)
+print(output)
