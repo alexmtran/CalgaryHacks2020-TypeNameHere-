@@ -1,9 +1,12 @@
 import csv
 from anytree.importer import DictImporter
+from anytree.exporter import DotExporter
 from anytree.dotexport import RenderTreeGraph
 from anytree import RenderTree
 import subprocess
 import sys
+from graphviz import Source
+from graphviz import render
 
 courses = {}
 
@@ -86,11 +89,18 @@ root = importer.import_(prerequisitesTree)
 
 RenderTreeGraph(root).to_picture("tree.png")
 print('`tree.png` has been generated.')
+
+try:
+	DotExporter(root).to_dotfile('tree-win32.dot')
+	render('dot', 'png', 'tree-win32.dot')
+except:
+	pass
+
 if sys.platform=='win32':
 	subprocess.Popen(['start', 'tree.png'], shell= True)
 
 elif sys.platform=='darwin':
-	subprocess.Popen(['open', 'tree.png'])
+	subprocess.Popen(['open', 'tree-win32.dot.png'])
 
 else:
 	try:
@@ -99,7 +109,6 @@ else:
 		print('Can\'t open file in system.')
         # er, think of something else to try
         # xdg-open *should* be supported by recent Gnome, KDE, Xfce
-
 
 while selectedCourse in courses:
 	selectedCourse = input('Select a UCalgary course you want to generate a prerequisites-tree from:')
@@ -110,8 +119,15 @@ while selectedCourse in courses:
 
 	RenderTreeGraph(root).to_picture("tree.png")
 	print('`tree.png` has been generated.')
+
+	try:
+		DotExporter(root).to_dotfile('tree-win32.dot')
+		render('dot', 'png', 'tree-win32.dot') 
+	except:
+		pass
+
 	if sys.platform=='win32':
-		subprocess.Popen(['start', 'tree.png'], shell= True)
+		subprocess.Popen(['start', 'tree-win32.dot.png'], shell= True)
 
 	elif sys.platform=='darwin':
 	    subprocess.Popen(['open', 'tree.png'])
