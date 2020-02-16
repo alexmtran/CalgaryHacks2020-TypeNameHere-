@@ -25,6 +25,7 @@ for course in course_codes:
     course = str(course)
 
     courses[course_count-1] = dict()
+    courses[course_count-1]['course_name'] = "Computer Science " + course[-7:-4]
     courses[course_count-1]['course_code'] = "CPSC " + course[-7:-4]
 
 #grabs all prerequistes
@@ -44,7 +45,7 @@ for course in range(len(all_prerequisites)):
     print()
 
 with open('courses.csv', 'w', newline='') as file:
-	fields = ['course_code', 'prerequisites']
+	fields = ['course_name','course_code', 'prerequisites']
 	writer = csv.DictWriter(file, delimiter=',', fieldnames=fields)
 
 	writer.writeheader()

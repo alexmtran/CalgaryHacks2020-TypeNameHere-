@@ -1,0 +1,113 @@
+course_name,course_code,prerequisites
+Computer Science 203,CPSC 203,
+Computer Science 217,CPSC 217,
+Computer Science 219,CPSC 219,Computer Science 217 or Data Science 211.
+Computer Science 231,CPSC 231,
+Computer Science 233,CPSC 233,Computer Science 231.
+Computer Science 235,CPSC 235,Consent of the Department.
+Computer Science 313,CPSC 313,"Mathematics 271 or 273; Philosophy 279 or 377; and one of Computer Science 219, 233 or 235."
+Computer Science 319,CPSC 319,"One of Computer Science 219, 233, 235, Computer Engineering 335, 339 or Software Engineering for Engineers 337."
+Computer Science 329,CPSC 329,"One of Computer Science 217, 231, 235, Data Science 211 or Engineering 233."
+Computer Science 331,CPSC 331,"Mathematics 271 or 273; and one of Computer Science 219, 233, 235 or Computer Engineering 339."
+Computer Science 335,CPSC 335,"Computer Science 319 or 331.
+         "
+Computer Science 355,CPSC 355,"One of Computer Science 219, 233 or 235."
+Computer Science 359,CPSC 359,Computer Science 355 and Philosophy 279 or 377.
+Computer Science 399,CPSC 399,Consent of the Department.
+Computer Science 405,CPSC 405,Software Engineering 300.
+Computer Science 409,CPSC 409,Computer Science 355.
+Computer Science 411,CPSC 411,Computer Science 319 or 331.
+Computer Science 413,CPSC 413,"Computer Science 313, 331; Mathematics 211 or 213; and one of Mathematics 249, 265 or 275."
+Computer Science 418,CPSC 418,"Computer Science 331 and one of Mathematics 271, 273, 315 or Pure Mathematics 315."
+Computer Science 433,CPSC 433,Computer Science 313 and Philosophy 279 or 377.
+Computer Science 441,CPSC 441,"Computer Science 319 or 331; and one of Computer Science 325, 359 or Computer Engineering 369."
+Computer Science 449,CPSC 449,Computer Science 319 or 331; and Philosophy 279 or 377.
+Computer Science 453,CPSC 453,"Computer Science 319 or 331; and Mathematics 211 or 213; and one of Mathematics 253, 267, 277, 283 or Applied Mathematics 219."
+Computer Science 457,CPSC 457,"Computer Science 319 or 331; and one of Computer Science 325, 359 or Computer Engineering 369."
+Computer Science 461,CPSC 461,Computer Science 355 and one of 319 or 331.
+Computer Science 471,CPSC 471,Computer Science 319 or 331.
+Computer Science 481,CPSC 481,"One of Software Engineering 300, 301 or Data Science 311."
+Computer Science 491,CPSC 491,"Computer Science 319 or 331; and Mathematics 211 or 213; and one of Mathematics 249, 251, 265, 275, 281 or Applied Mathematics 217."
+Computer Science 499,CPSC 499,Consent of the Department.
+Computer Science 501,CPSC 501,Computer Science 349 or 449.
+Computer Science 502,CPSC 502,Consent of the Department.
+Computer Science 503,CPSC 503,Consent of the Department.
+Computer Science 511,CPSC 511,Computer Science 413.
+Computer Science 513,CPSC 513,Computer Science 313.
+Computer Science 517,CPSC 517,Computer Science 413.
+Computer Science 518,CPSC 518,Computer Science 413 and one of Mathematics 211 or 213.
+Computer Science 519,CPSC 519,Computer Science 413 and one of Mathematics 311 or 313.
+Computer Science 521,CPSC 521,Computer Science 313 and one of Computer Science 349 or 449.
+Computer Science 522,CPSC 522,Computer Science 413.
+Computer Science 525,CPSC 525,Computer Science 457 and one of Mathematics 271 or 273.
+Computer Science 526,CPSC 526,Computer Science 441.
+Computer Science 527,CPSC 527,Computer Science 313 and 457 and consent of the Department.
+Computer Science 528,CPSC 528,Computer Science 313 and 457 and consent of the Department.
+Computer Science 530,CPSC 530,"One of Computer Science 219, 233 or 235, one of Mathematics 271, 273, 315 or Pure Mathematics 315, and one of Statistics 205 or 211  or 213 or 321 or Mathematics 321."
+Computer Science 531,CPSC 531,Computer Science 457 and one of Mathematics 321 or Statistics 205 or 211 or 213 or 321.
+Computer Science 535,CPSC 535,"One of Mathematics 311, 313, 331, 353, 376, Applied Mathematics 307, 311, Pure Mathematics 331."
+Computer Science 550,CPSC 550,Computer Science 457 and consent of the Department.
+Computer Science 559,CPSC 559,Computer Science 441 and 457.
+Computer Science 561,CPSC 561,Computer Science 413.
+Computer Science 565,CPSC 565,Computer Science 433.
+Computer Science 567,CPSC 567,Computer Science 457 and 433.
+Computer Science 568,CPSC 568,Computer Science 433 and consent of the Department.
+Computer Science 571,CPSC 571,Computer Science 471.
+Computer Science 572,CPSC 572,Computer Science 571.
+Computer Science 575,CPSC 575,Software Engineering 300. 
+Computer Science 577,CPSC 577,Computer Science 453. 
+Computer Science 581,CPSC 581,Computer Science 481 and consent of the Department.
+Computer Science 583,CPSC 583,Computer Science 319 or 331 or Data Science 311.
+Computer Science 584,CPSC 584,Computer Science 481.
+Computer Science 585,CPSC 585,Computer Science 453 and consent of the Department.
+Computer Science 587,CPSC 587,Computer Science 453.
+Computer Science 589,CPSC 589,Computer Science 453.
+Computer Science 591,CPSC 591,Computer Science 453.
+Computer Science 594,CPSC 594,Consent of the Department.
+Computer Science 598,CPSC 598,Consent of the Department.
+Computer Science 599,CPSC 599,Consent of the Department.
+Computer Science 601,CPSC 601,
+Computer Science 605,CPSC 605,
+Computer Science 607,CPSC 607,
+Computer Science 609,CPSC 609,
+Computer Science 610,CPSC 610,
+Computer Science 611,CPSC 611,
+Computer Science 615,CPSC 615,
+Computer Science 617,CPSC 617,
+Computer Science 619,CPSC 619,
+Computer Science 622,CPSC 622,
+Computer Science 625,CPSC 625,
+Computer Science 626,CPSC 626,
+Computer Science 627,CPSC 627,Consent of the Department.
+Computer Science 628,CPSC 628,Consent of the Department.
+Computer Science 629,CPSC 629,
+Computer Science 630,CPSC 630,
+Computer Science 635,CPSC 635,
+Computer Science 641,CPSC 641,
+Computer Science 643,CPSC 643,
+Computer Science 653,CPSC 653,
+Computer Science 657,CPSC 657,
+Computer Science 661,CPSC 661,
+Computer Science 662,CPSC 662,
+Computer Science 667,CPSC 667,
+Computer Science 669,CPSC 669,
+Computer Science 671,CPSC 671,
+Computer Science 672,CPSC 672,
+Computer Science 673,CPSC 673,
+Computer Science 675,CPSC 675,
+Computer Science 681,CPSC 681,
+Computer Science 683,CPSC 683,
+Computer Science 687,CPSC 687,
+Computer Science 689,CPSC 689,
+Computer Science 691,CPSC 691,
+Computer Science 695,CPSC 695,
+Computer Science 696,CPSC 696,
+Computer Science 697,CPSC 697,
+Computer Science 698,CPSC 698,
+Computer Science 699,CPSC 699,
+Computer Science 701,CPSC 701,
+Computer Science 767,CPSC 767,Computer Science 567 or 609.
+Computer Science 771,CPSC 771,
+Computer Science 781,CPSC 781,Computer Science 481.
+Computer Science 785,CPSC 785,
+Computer Science 789,CPSC 789,
