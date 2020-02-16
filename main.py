@@ -12,6 +12,7 @@ def getPrerequisitesDeep(selectedCourse, courses, tree):
 	selectedCourse = courses[selectedCourse]
 
 	if('prerequisites' not in selectedCourse.keys() or selectedCourse['prerequisites']  == ''):
+		print(selectedCourse['course_code'])
 		return selectedCourse['course_code']
 
 	choices = selectedCourse['prerequisites'].split('|')
@@ -26,18 +27,25 @@ def getPrerequisitesDeep(selectedCourse, courses, tree):
 	choice = choices[int(choice)]
 	prerequisites = choice.split(';')
 
-	for prerequisite in prerequisites:
-		tree[prerequisite] = dict()
-		
+	for index, prerequisite in enumerate(prerequisites):
 		if(prerequisite in courses):
-			getPrerequisitesDeep(prerequisite, courses, tree[prerequisite])
+			tree.append({
+				prerequisite: prerequisite,
+				'children': []
+			})
+
+			print('the tree at:' + str(index-1))
+			print(tree[index-1])
+
+			getPrerequisitesDeep(prerequisite, courses, tree[index-1]['children'])
 
 def getPrerequisites(selectedCourse, courses):
 	prerequisites = {
-		selectedCourse: dict()
+		selectedCourse: selectedCourse,
+		'children': []
 	}
 
-	getPrerequisitesDeep(selectedCourse, courses, prerequisites[selectedCourse])
+	getPrerequisitesDeep(selectedCourse, courses, prerequisites['children'])
 
 	return prerequisites
 
