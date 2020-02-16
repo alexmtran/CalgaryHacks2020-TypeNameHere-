@@ -1,5 +1,6 @@
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
+import csv
 
 #downloads the webpage and closes it. saves it as page_html
 my_url = "https://www.ucalgary.ca/pubs/calendar/current/computer-science.html"
@@ -16,10 +17,15 @@ course_codes = containers[0].findAll("a",{"class":"link-text"})
 
 #Prints out the courses on a seperate line
 course_count = 0
+
+courses = {}
+
 for course in course_codes:
     course_count += 1
     course = str(course)
-    print("CPSC",course[-7:-4])
+
+    courses[course_count-1] = dict()
+    courses[course_count-1]['course_code'] = "CPSC " + course[-7:-4]
 
 #grabs all prerequistes
 all_prerequisites = page_soup.findAll("td", {"class":"myCell"})
@@ -29,8 +35,21 @@ prerequisite_count = 0
 for course in range(len(all_prerequisites)):
     prerequisite_count += 1
     prerequisites = all_prerequisites[course].find('span',{'class':'course-prereq'})
+    prerequisite = ''
     for m in (prerequisites.contents):
-        print(m.string, end = "")
+        # print(m.string, end = "")
+        prerequisite += m.string
+    print(prerequisite)
+    courses[prerequisite_count-1]['prerequisites'] = prerequisite
     print()
+
+with open('courses.csv', 'w', newline='') as file:
+	fields = ['course_code', 'prerequisites']
+	writer = csv.DictWriter(file, delimiter=',', fieldnames=fields)
+
+	writer.writeheader()
+
+	for courseCode, course in courses.items():
+		writer.writerow(course)
 
 
