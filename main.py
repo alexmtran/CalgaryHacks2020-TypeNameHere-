@@ -2,6 +2,8 @@ import csv
 from anytree.importer import DictImporter
 from anytree.dotexport import RenderTreeGraph
 from anytree import RenderTree
+import subprocess
+import sys
 
 courses = {}
 
@@ -84,6 +86,20 @@ root = importer.import_(prerequisitesTree)
 
 RenderTreeGraph(root).to_picture("tree.png")
 print('`tree.png` has been generated.')
+if sys.platform=='win32':
+	subprocess.Popen(['start', 'tree.png'], shell= True)
+
+elif sys.platform=='darwin':
+	subprocess.Popen(['open', 'tree.png'])
+
+else:
+	try:
+		subprocess.Popen(['xdg-open', 'tree.png'])
+	except OSError:
+		print('Can\'t open file in system.')
+        # er, think of something else to try
+        # xdg-open *should* be supported by recent Gnome, KDE, Xfce
+
 
 while selectedCourse in courses:
 	selectedCourse = input('Select a UCalgary course you want to generate a prerequisites-tree from:')
@@ -94,3 +110,16 @@ while selectedCourse in courses:
 
 	RenderTreeGraph(root).to_picture("tree.png")
 	print('`tree.png` has been generated.')
+	if sys.platform=='win32':
+		subprocess.Popen(['start', 'tree.png'], shell= True)
+
+	elif sys.platform=='darwin':
+	    subprocess.Popen(['open', 'tree.png'])
+
+	else:
+	    try:
+	        subprocess.Popen(['xdg-open', d])
+	    except OSError:
+	    	print('Can\'t open file in system.')
+	        # er, think of something else to try
+	        # xdg-open *should* be supported by recent Gnome, KDE, Xfce
