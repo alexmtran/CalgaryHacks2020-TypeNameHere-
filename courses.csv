@@ -1,121 +1,7 @@
 course_name,course_code,prerequisites
-Computer Science 203,CPSC 203,
-Computer Science 217,CPSC 217,
-Computer Science 219,CPSC 219,Computer Science 217 or Data Science 211.
-Computer Science 231,CPSC 231,
-Computer Science 233,CPSC 233,Computer Science 231.
-Computer Science 235,CPSC 235,Consent of the Department.
-Computer Science 313,CPSC 313,"Mathematics 271 or 273; Philosophy 279 or 377; and one of Computer Science 219, 233 or 235."
-Computer Science 319,CPSC 319,"One of Computer Science 219, 233, 235, Computer Engineering 335, 339 or Software Engineering for Engineers 337."
-Computer Science 329,CPSC 329,"One of Computer Science 217, 231, 235, Data Science 211 or Engineering 233."
-Computer Science 331,CPSC 331,"Mathematics 271 or 273; and one of Computer Science 219, 233, 235 or Computer Engineering 339."
-Computer Science 335,CPSC 335,"Computer Science 319 or 331.
-         "
-Computer Science 355,CPSC 355,"One of Computer Science 219, 233 or 235."
-Computer Science 359,CPSC 359,Computer Science 355 and Philosophy 279 or 377.
-Computer Science 399,CPSC 399,Consent of the Department.
-Computer Science 405,CPSC 405,Software Engineering 300.
-Computer Science 409,CPSC 409,Computer Science 355.
-Computer Science 411,CPSC 411,Computer Science 319 or 331.
-Computer Science 413,CPSC 413,"Computer Science 313, 331; Mathematics 211 or 213; and one of Mathematics 249, 265 or 275."
-Computer Science 418,CPSC 418,"Computer Science 331 and one of Mathematics 271, 273, 315 or Pure Mathematics 315."
-Computer Science 433,CPSC 433,Computer Science 313 and Philosophy 279 or 377.
-Computer Science 441,CPSC 441,"Computer Science 319 or 331; and one of Computer Science 325, 359 or Computer Engineering 369."
-Computer Science 449,CPSC 449,Computer Science 319 or 331; and Philosophy 279 or 377.
-Computer Science 453,CPSC 453,"Computer Science 319 or 331; and Mathematics 211 or 213; and one of Mathematics 253, 267, 277, 283 or Applied Mathematics 219."
-Computer Science 457,CPSC 457,"Computer Science 319 or 331; and one of Computer Science 325, 359 or Computer Engineering 369."
-Computer Science 461,CPSC 461,Computer Science 355 and one of 319 or 331.
-Computer Science 471,CPSC 471,Computer Science 319 or 331.
-Computer Science 481,CPSC 481,"One of Software Engineering 300, 301 or Data Science 311."
-Computer Science 491,CPSC 491,"Computer Science 319 or 331; and Mathematics 211 or 213; and one of Mathematics 249, 251, 265, 275, 281 or Applied Mathematics 217."
-Computer Science 499,CPSC 499,Consent of the Department.
-Computer Science 501,CPSC 501,Computer Science 349 or 449.
-Computer Science 502,CPSC 502,Consent of the Department.
-Computer Science 503,CPSC 503,Consent of the Department.
-Computer Science 511,CPSC 511,Computer Science 413.
-Computer Science 513,CPSC 513,Computer Science 313.
-Computer Science 517,CPSC 517,Computer Science 413.
-Computer Science 518,CPSC 518,Computer Science 413 and one of Mathematics 211 or 213.
-Computer Science 519,CPSC 519,Computer Science 413 and one of Mathematics 311 or 313.
-Computer Science 521,CPSC 521,Computer Science 313 and one of Computer Science 349 or 449.
-Computer Science 522,CPSC 522,Computer Science 413.
-Computer Science 525,CPSC 525,Computer Science 457 and one of Mathematics 271 or 273.
-Computer Science 526,CPSC 526,Computer Science 441.
-Computer Science 527,CPSC 527,Computer Science 313 and 457 and consent of the Department.
-Computer Science 528,CPSC 528,Computer Science 313 and 457 and consent of the Department.
-Computer Science 530,CPSC 530,"One of Computer Science 219, 233 or 235, one of Mathematics 271, 273, 315 or Pure Mathematics 315, and one of Statistics 205 or 211  or 213 or 321 or Mathematics 321."
-Computer Science 531,CPSC 531,Computer Science 457 and one of Mathematics 321 or Statistics 205 or 211 or 213 or 321.
-Computer Science 535,CPSC 535,"One of Mathematics 311, 313, 331, 353, 376, Applied Mathematics 307, 311, Pure Mathematics 331."
-Computer Science 550,CPSC 550,Computer Science 457 and consent of the Department.
-Computer Science 559,CPSC 559,Computer Science 441 and 457.
-Computer Science 561,CPSC 561,Computer Science 413.
-Computer Science 565,CPSC 565,Computer Science 433.
-Computer Science 567,CPSC 567,Computer Science 457 and 433.
-Computer Science 568,CPSC 568,Computer Science 433 and consent of the Department.
-Computer Science 571,CPSC 571,Computer Science 471.
-Computer Science 572,CPSC 572,Computer Science 571.
-Computer Science 575,CPSC 575,Software Engineering 300. 
-Computer Science 577,CPSC 577,Computer Science 453. 
-Computer Science 581,CPSC 581,Computer Science 481 and consent of the Department.
-Computer Science 583,CPSC 583,Computer Science 319 or 331 or Data Science 311.
-Computer Science 584,CPSC 584,Computer Science 481.
-Computer Science 585,CPSC 585,Computer Science 453 and consent of the Department.
-Computer Science 587,CPSC 587,Computer Science 453.
-Computer Science 589,CPSC 589,Computer Science 453.
-Computer Science 591,CPSC 591,Computer Science 453.
-Computer Science 594,CPSC 594,Consent of the Department.
-Computer Science 598,CPSC 598,Consent of the Department.
-Computer Science 599,CPSC 599,Consent of the Department.
-Computer Science 601,CPSC 601,
-Computer Science 605,CPSC 605,
-Computer Science 607,CPSC 607,
-Computer Science 609,CPSC 609,
-Computer Science 610,CPSC 610,
-Computer Science 611,CPSC 611,
-Computer Science 615,CPSC 615,
-Computer Science 617,CPSC 617,
-Computer Science 619,CPSC 619,
-Computer Science 622,CPSC 622,
-Computer Science 625,CPSC 625,
-Computer Science 626,CPSC 626,
-Computer Science 627,CPSC 627,Consent of the Department.
-Computer Science 628,CPSC 628,Consent of the Department.
-Computer Science 629,CPSC 629,
-Computer Science 630,CPSC 630,
-Computer Science 635,CPSC 635,
-Computer Science 641,CPSC 641,
-Computer Science 643,CPSC 643,
-Computer Science 653,CPSC 653,
-Computer Science 657,CPSC 657,
-Computer Science 661,CPSC 661,
-Computer Science 662,CPSC 662,
-Computer Science 667,CPSC 667,
-Computer Science 669,CPSC 669,
-Computer Science 671,CPSC 671,
-Computer Science 672,CPSC 672,
-Computer Science 673,CPSC 673,
-Computer Science 675,CPSC 675,
-Computer Science 681,CPSC 681,
-Computer Science 683,CPSC 683,
-Computer Science 687,CPSC 687,
-Computer Science 689,CPSC 689,
-Computer Science 691,CPSC 691,
-Computer Science 695,CPSC 695,
-Computer Science 696,CPSC 696,
-Computer Science 697,CPSC 697,
-Computer Science 698,CPSC 698,
-Computer Science 699,CPSC 699,
-Computer Science 701,CPSC 701,
-Computer Science 767,CPSC 767,Computer Science 567 or 609.
-Computer Science 771,CPSC 771,
-Computer Science 781,CPSC 781,Computer Science 481.
-Computer Science 785,CPSC 785,
-Computer Science 789,CPSC 789,
-course_name,course_code,prerequisites
 Academic Writing201,ACWR201,
 Academic Writing203,ACWR203,
 Academic Writing303,ACWR303,
-course_name,course_code,prerequisites
 Accounting217,ACCT217,"Admission to the Haskayne School of Business, and 12 units including Mathematics 249 or 251 or 265 or 281.  "
 Accounting301,ACCT301,24 units including Entrepreneurship and Innovation 201.
 Accounting323,ACCT323,"Admission to the Haskayne School of Business, and Accounting 217 or 317."
@@ -146,7 +32,6 @@ Accounting765,ACCT765,Accounting 661.
 Accounting789,ACCT789, Accounting 603 or consent of the Haskayne School of Business.
 Accounting797,ACCT797, Consent of the Haskayne School of Business.
 Accounting799,ACCT799,
-course_name,course_code,prerequisites
 Actuarial Science325,ACSC325,"One of Mathematics 249, 265 or 275. "
 Actuarial Science327,ACSC327," A grade of ""C"" or higher in Statistics 321."
 Actuarial Science425,ACSC425,Actuarial Science 325 and Statistics 323; or Actuarial Science 325 and 60 units and consent of the Department.
@@ -170,14 +55,11 @@ Actuarial Science619,ACSC619,Actuarial Science 327.
 Actuarial Science627,ACSC627,Actuarial Science 327; and one of Statistics 323 or Mathematics 323; and one of Mathematics 311 or 313 or 353 or 367 or 375 or 381; and one of Computer Science 217 or 231 or 235. 
 Actuarial Science637,ACSC637,Actuarial Science 327; Statistics 323 or Mathematics 323; and one of Mathematics 311 or 313 or 353 or 367 or 375 or 381.
 Actuarial Science639,ACSC639,
-course_name,course_code,prerequisites
 African Studies301,AFST301,
 African Studies400,AFST400,Consent of the Program Co-ordinator.
 African Studies501,AFST501,"One of African Studies 301, Anthropology 317, History 401, or Political Science 371."
-course_name,course_code,prerequisites
 American Sign Language201,ASL201,
 American Sign Language203,ASL203,American Sign Language 201.
-course_name,course_code,prerequisites
 Anthropology201,ANTH201,
 Anthropology203,ANTH203,
 Anthropology303,ANTH303,
@@ -242,7 +124,6 @@ Anthropology635,ANTH635, Consent of the Department.
 Anthropology641,ANTH641, Consent of the Department.
 Anthropology659,ANTH659, Consent of the Department.
 Anthropology701,ANTH701,
-course_name,course_code,prerequisites
 Arabic Language and Muslim Cultures202,ALMC202,"Consent of the School of Languages, Linguistics, Literatures and Cultures. "
 Arabic Language and Muslim Cultures204,ALMC204,Arabic Language and Muslim Cultures 202.
 Arabic Language and Muslim Cultures301,ALMC301,Arabic Language and Muslim Cultures 204.
@@ -259,7 +140,6 @@ Arabic Language and Muslim Cultures345,ALMC345,The corresponding language in Ara
 Arabic Language and Muslim Cultures354,ALMC354,Arabic Language and Muslim Cultures 204. 
 Arabic Language and Muslim Cultures358,ALMC358,
 Arabic Language and Muslim Cultures360,ALMC360,
-course_name,course_code,prerequisites
 Archaeology201,ARKY201,
 Archaeology205,ARKY205,
 Archaeology303,ARKY303,
@@ -323,219 +203,6 @@ Archaeology637,ARKY637, Consent of the Department.
 Archaeology639,ARKY639, Consent of the Department.
 Archaeology701,ARKY701,
 Archaeology703,ARKY703, Consent of the Department.
-course_name,course_code,prerequisites
-Academic Writing201,ACWR201,
-Academic Writing203,ACWR203,
-Academic Writing303,ACWR303,
-course_name,course_code,prerequisites
-Accounting217,ACCT217,"Admission to the Haskayne School of Business, and 12 units including Mathematics 249 or 251 or 265 or 281.  "
-Accounting301,ACCT301,24 units including Entrepreneurship and Innovation 201.
-Accounting323,ACCT323,"Admission to the Haskayne School of Business, and Accounting 217 or 317."
-Accounting341,ACCT341,"Admission to the Haskayne School of Business and Accounting 217 or 317, and 323."
-Accounting343,ACCT343,Admission to the Haskayne School of Business and Accounting 341.
-Accounting361,ACCT361,Admission to the Haskayne School of Business and Accounting 323.
-Accounting421,ACCT421,"Admission to the Haskayne School of Business, and 54 units including Accounting 217 or 317."
-Accounting423,ACCT423,Admission to the Haskayne School of Business and Accounting 421.
-Accounting425,ACCT425,Admission to the Haskayne School of Business and 54 units including Accounting 341.
-Accounting443,ACCT443,Admission to the Haskayne School of Business and 54 units including Accounting 343.
-Accounting445,ACCT445,Admission to the Haskayne School of Business and 54 units including Accounting 343.
-Accounting465,ACCT465,Admission to the Haskayne School of Business and 54 units including Accounting 361.
-Accounting559,ACCT559,"Admission to the Haskayne School of Business and 54 units including Accounting 343. For certain topics, consent of the Haskayne School of Business will also be required."
-Accounting601,ACCT601,
-Accounting603,ACCT603, Accounting 601.
-Accounting641,ACCT641, Accounting 601 and 603; or consent of the Haskayne School of Business.
-Accounting643,ACCT643,Accounting 641.
-Accounting661,ACCT661, Accounting 603.
-Accounting672,ACCT672,Admission to the Master of Management Program. 
-Accounting674,ACCT674,Admission to the Master of Management Program.
-Accounting721,ACCT721,Accounting 601.
-Accounting723,ACCT723,Accounting 721.
-Accounting725,ACCT725,Accounting 641.
-Accounting741,ACCT741, Accounting 603.
-Accounting743,ACCT743,Accounting 643.
-Accounting745,ACCT745,Accounting 643.
-Accounting765,ACCT765,Accounting 661.
-Accounting789,ACCT789, Accounting 603 or consent of the Haskayne School of Business.
-Accounting797,ACCT797, Consent of the Haskayne School of Business.
-Accounting799,ACCT799,
-course_name,course_code,prerequisites
-Actuarial Science325,ACSC325,"One of Mathematics 249, 265 or 275. "
-Actuarial Science327,ACSC327," A grade of ""C"" or higher in Statistics 321."
-Actuarial Science425,ACSC425,Actuarial Science 325 and Statistics 323; or Actuarial Science 325 and 60 units and consent of the Department.
-Actuarial Science427,ACSC427,"Actuarial Science 327; Statistics 323; one of Mathematics 311, 313, 367 or 375."
-Actuarial Science437,ACSC437,Statistics 323. 
-Actuarial Science511,ACSC511,Statistics 323. 
-Actuarial Science513,ACSC513,Actuarial Science 327 and Statistics 321. 
-Actuarial Science515,ACSC515,Actuarial Science 325 and Statistics 321. 
-Actuarial Science517,ACSC517,Actuarial Science 327. 
-Actuarial Science519,ACSC519,Actuarial Science 327.
-Actuarial Science527,ACSC527,"Actuarial Science 327; Statistics 323; one of Mathematics 311, 313, 367 or 375; and one of Computer Science 217, 231, 235 or Data Science 211."
-Actuarial Science531,ACSC531,"Actuarial Science 327; Statistics 323; one of Mathematics 311, 313, 367 or 375."
-Actuarial Science535,ACSC535, Actuarial Science 327 and Statistics 323.
-Actuarial Science537,ACSC537,"Actuarial Science 327; Statistics 323; and one of Mathematics 311, 313, 367 or 375."
-Actuarial Science539,ACSC539,Actuarial Science 327; Statistics 323; and one of Mathematics 311 or 313 or 367 or 375.
-Actuarial Science600,ACSC600,
-Actuarial Science611,ACSC611,"Statistics 323 or Mathematics 323, and Statistics 429."
-Actuarial Science617,ACSC617,"Actuarial Science 327.
-   "
-Actuarial Science619,ACSC619,Actuarial Science 327.
-Actuarial Science627,ACSC627,Actuarial Science 327; and one of Statistics 323 or Mathematics 323; and one of Mathematics 311 or 313 or 353 or 367 or 375 or 381; and one of Computer Science 217 or 231 or 235. 
-Actuarial Science637,ACSC637,Actuarial Science 327; Statistics 323 or Mathematics 323; and one of Mathematics 311 or 313 or 353 or 367 or 375 or 381.
-Actuarial Science639,ACSC639,
-course_name,course_code,prerequisites
-African Studies301,AFST301,
-African Studies400,AFST400,Consent of the Program Co-ordinator.
-African Studies501,AFST501,"One of African Studies 301, Anthropology 317, History 401, or Political Science 371."
-course_name,course_code,prerequisites
-American Sign Language201,ASL201,
-American Sign Language203,ASL203,American Sign Language 201.
-course_name,course_code,prerequisites
-Anthropology201,ANTH201,
-Anthropology203,ANTH203,
-Anthropology303,ANTH303,
-Anthropology305,ANTH305,One of Anthropology 201 or Archaeology 203 or Biology 241 or 205.
-Anthropology309,ANTH309,Anthropology 201 or Archaeology 203.
-Anthropology311,ANTH311,
-Anthropology313,ANTH313,Anthropology 203.
-Anthropology317,ANTH317, Anthropology 203.
-Anthropology319,ANTH319, Anthropology 203.
-Anthropology321,ANTH321, Anthropology 203.
-Anthropology323,ANTH323, Anthropology 203.
-Anthropology329,ANTH329,Anthropology 203.
-Anthropology331,ANTH331,
-Anthropology341,ANTH341, Anthropology 203.
-Anthropology343,ANTH343,Anthropology 203.
-Anthropology346,ANTH346,
-Anthropology350,ANTH350,Anthropology 201 or Archaeology 203.
-Anthropology355,ANTH355, Anthropology 203.
-Anthropology357,ANTH357,"One of Anthropology 203, Development Studies 201 or Indigenous Studies 201."
-Anthropology361,ANTH361, Anthropology 203.
-Anthropology363,ANTH363, Anthropology 203.
-Anthropology371,ANTH371,Anthropology 203.
-Anthropology379,ANTH379, Anthropology 203.
-Anthropology385,ANTH385, Anthropology 203.
-Anthropology393,ANTH393,Anthropology 203.
-Anthropology395,ANTH395,Anthropology 203. 
-Anthropology399,ANTH399,
-Anthropology400,ANTH400,Consent of the Department.
-Anthropology410,ANTH410,"One of Anthropology 210, 213 or 346. "
-Anthropology411,ANTH411,One of Anthropology 391 or 490.
-Anthropology412,ANTH412,Anthropology 309 and 311.
-Anthropology413,ANTH413,Anthropology 311.
-Anthropology421,ANTH421, Anthropology 321.
-Anthropology425,ANTH425,Anthropology 311.
-Anthropology427,ANTH427, Anthropology 323.
-Anthropology435,ANTH435, Anthropology 311.
-Anthropology441,ANTH441,Anthropology 341.
-Anthropology449,ANTH449,Anthropology 341.
-Anthropology451,ANTH451, Anthropology 311.
-Anthropology467,ANTH467, Anthropology 343.
-Anthropology479,ANTH479,"One of Anthropology 379, Geography 351 or 452."
-Anthropology490,ANTH490,Anthropology 203. 
-Anthropology501,ANTH501, Anthropology 203 and one senior Anthropology  course and consent of the Department.
-Anthropology505,ANTH505, Anthropology 311 and one senior primatology course and consent of the Department.
-Anthropology506,ANTH506,"Anthropology 350, completion of 72 units and consent of the Department. "
-Anthropology523,ANTH523,Consent of the Department.
-Anthropology534,ANTH534,Anthropology 201 and one of Anthropology 203 or Archaeology 201 and a minimum of 12 units in courses labelled Anthropology.
-Anthropology541,ANTH541, Consent of the Department.
-Anthropology552,ANTH552,Consent of the Department.
-Anthropology553,ANTH553,Consent of the Department.
-Anthropology534,ANTH534,Anthropology 413 and admission to the Anthropology Honours Program.
-Anthropology571,ANTH571,Anthropology 411 and admission to the Anthropology Honours Program.
-Anthropology573,ANTH573,Consent of the Department.
-Anthropology589,ANTH589, Consent of the Department.
-Anthropology601,ANTH601, Consent of the Department.
-Anthropology603,ANTH603, Consent of the Department.
-Anthropology605,ANTH605, Consent of the Department.
-Anthropology611,ANTH611, Consent of the Department.
-Anthropology613,ANTH613, Consent of the Department.
-Anthropology631,ANTH631, Consent of the Department.
-Anthropology635,ANTH635, Consent of the Department.
-Anthropology641,ANTH641, Consent of the Department.
-Anthropology659,ANTH659, Consent of the Department.
-Anthropology701,ANTH701,
-course_name,course_code,prerequisites
-Arabic Language and Muslim Cultures202,ALMC202,"Consent of the School of Languages, Linguistics, Literatures and Cultures. "
-Arabic Language and Muslim Cultures204,ALMC204,Arabic Language and Muslim Cultures 202.
-Arabic Language and Muslim Cultures301,ALMC301,Arabic Language and Muslim Cultures 204.
-Arabic Language and Muslim Cultures303,ALMC303,Arabic Language and Muslim Cultures 301.
-Arabic Language and Muslim Cultures309,ALMC309,Arabic Language and Muslim Cultures 204.
-Arabic Language and Muslim Cultures311,ALMC311,Arabic Language and Muslim Cultures 204.
-Arabic Language and Muslim Cultures313,ALMC313,Arabic Language and Muslim Cultures 204.
-Arabic Language and Muslim Cultures317,ALMC317,
-Arabic Language and Muslim Cultures319,ALMC319,
-Arabic Language and Muslim Cultures331,ALMC331,Arabic Language and Muslim Cultures 303.
-Arabic Language and Muslim Cultures333,ALMC333,Arabic Language and Muslim Cultures 331.
-Arabic Language and Muslim Cultures343,ALMC343,Arabic Language and Muslim Cultures 204.
-Arabic Language and Muslim Cultures345,ALMC345,The corresponding language in Arabic Language and Muslim Cultures 343.
-Arabic Language and Muslim Cultures354,ALMC354,Arabic Language and Muslim Cultures 204. 
-Arabic Language and Muslim Cultures358,ALMC358,
-Arabic Language and Muslim Cultures360,ALMC360,
-course_name,course_code,prerequisites
-Archaeology201,ARKY201,
-Archaeology205,ARKY205,
-Archaeology303,ARKY303,
-Archaeology306,ARKY306,Consent of the Department.
-Archaeology307,ARKY307,
-Archaeology317,ARKY317,
-Archaeology321,ARKY321,
-Archaeology325,ARKY325,
-Archaeology327,ARKY327,
-Archaeology329,ARKY329,
-Archaeology331,ARKY331,
-Archaeology335,ARKY335,
-Archaeology341,ARKY341,
-Archaeology343,ARKY343,
-Archaeology345,ARKY345,
-Archaeology347,ARKY347, Consent of the Department.
-Archaeology353,ARKY353,
-Archaeology355,ARKY355,
-Archaeology357,ARKY357,
-Archaeology395,ARKY395, Archaeology 201 or 205.
-Archaeology399,ARKY399,
-Archaeology401,ARKY401, Archaeology 201 or 205.
-Archaeology415,ARKY415,Archaeology 201.
-Archaeology417,ARKY417,Archaeology 201.
-Archaeology419,ARKY419,
-Archaeology423,ARKY423, Archaeology 201 or 205 or 303.
-Archaeology437,ARKY437,Archaeology 201 or 203.
-Archaeology439,ARKY439,
-Archaeology443,ARKY443, Archaeology 201.
-Archaeology451,ARKY451, Archaeology 201 and 60 units.
-Archaeology453,ARKY453,"3 units from Archaeology 201, Geography 211, 310, Geology 201, 209."
-Archaeology455,ARKY455, Archaeology 201.
-Archaeology471,ARKY471, Archaeology 201.
-Archaeology490,ARKY490,Consent of the Department. 
-Archaeology503,ARKY503, Archaeology 451.
-Archaeology506,ARKY506,Archaeology 201 and 306.
-Archaeology515,ARKY515,Consent of the Department. 
-Archaeology523,ARKY523,Consent of the Department.
-Archaeology531,ARKY531, Consent of the Department.
-Archaeology537,ARKY537,"6 units from Archaeology 341, 343, 345, 347."
-Archaeology555,ARKY555,Anthropology 309 or 350.
-Archaeology591,ARKY591, Archaeology 451.
-Archaeology593,ARKY593, Archaeology 451.
-Archaeology595,ARKY595,"Anthropology 201, Archaeology 555 and either Anthropology 350 or Archaeology 203, and admission to the Archaeology or Anthropology major."
-Archaeology596,ARKY596,Admission to Archaeology BSc Honours program and consent of the Department.
-Archaeology597,ARKY597, Consent of the Department.
-Archaeology598,ARKY598,Admission to Archaeology BA Honours program and consent of the Department.
-Archaeology601,ARKY601, Consent of the Department.
-Archaeology603,ARKY603, Consent of the Department.
-Archaeology613,ARKY613,Consent of the Department.
-Archaeology615,ARKY615, Consent of the Department.
-Archaeology617,ARKY617, Consent of the Department.
-Archaeology619,ARKY619, Archaeology 555.
-Archaeology621,ARKY621, Consent of the Department.
-Archaeology625,ARKY625,
-Archaeology627,ARKY627,
-Archaeology631,ARKY631,Consent of the Department.
-Archaeology633,ARKY633,Consent of the Department.
-Archaeology635,ARKY635,Consent of the Department.
-Archaeology637,ARKY637, Consent of the Department.
-Archaeology639,ARKY639, Consent of the Department.
-Archaeology701,ARKY701,
-Archaeology703,ARKY703, Consent of the Department.
-course_name,course_code,prerequisites
 Architectural Studies201,ARST201,
 Architectural Studies421,ARST421,Architectural Studies 201.
 Architectural Studies423,ARST423,Admission to the Architectural Studies Minor or consent of the Faculty.
@@ -545,7 +212,6 @@ Architectural Studies451,ARST451,Architectural Studies 451 and 484 and admission
 Architectural Studies453,ARST453,Admission to the Architectural Studies Minor or consent of the Faculty.
 Architectural Studies457,ARST457,Admission to the Architectural Studies Minor.
 Architectural Studies484,ARST484,Architectural Studies 451 and 484 and admission to the Architectural Studies Minor.
-course_name,course_code,prerequisites
 Art231,ART231,
 Art233,ART233,
 Art235,ART235,
@@ -628,7 +294,6 @@ Art691,ART691,"Admission to a graduate program in the Department of Art.
   "
 Art761,ART761,"Admission to a graduate program in the Department of Art.
   "
-course_name,course_code,prerequisites
 Art History201,ARHI201,
 Art History203,ARHI203,
 Art History211,ARHI211,
@@ -658,21 +323,17 @@ Art History513,ARHI513,18 units in Art History at the 300 level or above and con
 Art History613,ARHI613,18 units in Art History at the 300 level or above and consent of the Department. 
 Art History615,ARHI615, Consent of the Department.
 Art History617,ARHI617, Consent of the Department.
-course_name,course_code,prerequisites
 Arts501,ARTS501,Third-year standing. 
 Arts502,ARTS502,Acceptance to a recognized academic internship or field placement program and approval of the Faculty of Arts. 
 Arts503,ARTS503,Admission to the BA Multidisciplinary and completion of 75 units.
 Arts601,ARTS601,"Admission to MA, MSc or PhD program in the Faculty of Arts."
-course_name,course_code,prerequisites
 Arts and Science Honours Academy220,ASHA220,
 Arts and Science Honours Academy321,ASHA321,Arts and Science Honours Academy 220 and admission to the Arts and Science Honours Academy.
 Arts and Science Honours Academy421,ASHA421,Arts and Science Honours Academy 321 and admission to the Arts and Science Honours Academy.
 Arts and Science Honours Academy501,ASHA501,Arts and Science Honours Academy 421 and admission to the Arts and Science Honours Academy.
 Arts and Science Honours Academy503,ASHA503,Arts and Science Honours Academy 501 and admission to the Arts and Science Honours Academy.
-course_name,course_code,prerequisites
 Astronomy207,ASTR207,
 Astronomy209,ASTR209,
-course_name,course_code,prerequisites
 Astrophysics305,ASPH305,"One of Physics 211, 221, 227 or Engineering 202; and one of Mathematics 249, 265 or 275."
 Astrophysics307,ASPH307,"Astrophysics 213 or 305; one of Physics 211, 221, 227 or Engineering 202; and one of Physics 255, 259 or 323.  "
 Astrophysics401,ASPH401,"Physics 325, Mathematics 375; and one of Astrophysics 213 or 305."
@@ -683,7 +344,6 @@ Astrophysics509,ASPH509,"Astrophysics 401, Physics 325, 343 and Mathematics 375.
 Astrophysics607,ASPH607,
 Astrophysics611,ASPH611,
 Astrophysics621,ASPH621,
-course_name,course_code,prerequisites
 Biochemistry341,BCEM341,Chemistry 351.
 Biochemistry393,BCEM393,Chemistry 351; and Biology 311 or admission to the BHSc Honours program and Medical Sciences 341.
 Biochemistry401,BCEM401,Biochemistry 393 and one of Chemistry 353 or 355.
@@ -705,7 +365,6 @@ Biochemistry575,BCEM575, Biochemistry 393 and one of Biochemistry 401 or 443.
 Biochemistry577,BCEM577, One of Biochemistry 341 or 393 and one of Biochemistry 471 or Chemistry 371.
 Biochemistry641,BCEM641,
 Biochemistry731,BCEM731,
-course_name,course_code,prerequisites
 Biology202,BIOL202,
 Biology205,BIOL205,
 Biology241,BIOL241,Biology 30 and Chemistry 30.
@@ -737,7 +396,6 @@ Biology609,BIOL609,Ecology 425 or consent of the Department.
 Biology617,BIOL617,Consent of the Department.
 Biology619,BIOL619,
 Biology703,BIOL703,
-course_name,course_code,prerequisites
 Biomedical Engineering301,BMEN301,
 Biomedical Engineering309,BMEN309,
 Biomedical Engineering401,BMEN401,Biomedical Engineering 301.
@@ -757,11 +415,8 @@ Biomedical Engineering605,BMEN605,
 Biomedical Engineering607,BMEN607,
 Biomedical Engineering609,BMEN609,
 Biomedical Engineering619,BMEN619,
-course_name,course_code,prerequisites
 Biostatistics600,BIST600,
-course_name,course_code,prerequisites
 BotanyLBI,BOTALBI,
-course_name,course_code,prerequisites
 Business and Environment395,BSEN395,24 units.
 Business and Environment401,BSEN401,Entrepreneurship and Innovation 201.
 Business and Environment449,BSEN449,Admission to the Haskayne School of Business and 60 units.
@@ -784,7 +439,6 @@ Business and Environment777,BSEN777,
 Business and Environment789,BSEN789,
 Business and Environment793,BSEN793,"Organizational Behaviour and Human Resources 601, Operations Management 601, Business Technology Management 601, and Accounting 601."
 Business and Environment797,BSEN797,Consent of the Haskayne School of Business.
-course_name,course_code,prerequisites
 Business Technology Management317,BTMA317,"Admission to the Haskayne School of Business, and either Management Studies 217 and Strategy and Global Management 217, or Business and Environment 291 and Computer Science 203."
 Business Technology Management321,BTMA321,30 units.
 Business Technology Management331,BTMA331,Admission to the Haskayne School of Business and Business Technology Management 317.
@@ -820,7 +474,6 @@ Business Technology Management743,BTMA743,Business Technology Management 601.
 Business Technology Management797,BTMA797,"Consent of the Haskayne School of Business.
   "
 Business Technology Management799,BTMA799,
-course_name,course_code,prerequisites
 Canadian Studies201,CNST201,
 Canadian Studies333,CNST333,
 Canadian Studies337,CNST337,
@@ -833,9 +486,7 @@ Canadian Studies501,CNST501,"One of: Art 361, Communication and Media Studies 31
 Canadian Studies591,CNST591,"72 units, including 6 units from courses labelled Canadian Studies."
 Canadian Studies597,CNST597,"Admission to the Canadian Studies Honours Program and one of: Art 361, Communication and Media Studies 313, History 300, Political Science 399 or Sociology 313. "
 Canadian Studies598,CNST598,"Admission to the Canadian Studies Honours Program and one of: Art 361, Communication and Media Studies 313, History 300, Political Science 399 or Sociology 313. "
-course_name,course_code,prerequisites
 Central and East European Studies313,CEST313,
-course_name,course_code,prerequisites
 Chemical Engineering315,ENCH315,
 Chemical Engineering317,ENCH317,Engineering 202 and Mathematics 275 or Applied Mathematics 217.
 Chemical Engineering331,ENCH331,Engineering 201 and 202; and Mathematics 375 or Applied Mathematics 307.
@@ -890,7 +541,6 @@ Chemical Engineering698,ENCH698,"Chemical Engineering 621, Geology 697 and Organ
 Chemical Engineering699,ENCH699,Consent of the Department Head or Associate Head Graduate Studies.
 Chemical Engineering701,ENCH701,
 Chemical Engineering703,ENCH703,
-course_name,course_code,prerequisites
 Chemistry201,CHEM201,Chemistry 30 (or Continuing Education - Chemistry 2) and one of Mathematics 30-1 or Mathematics 2 (offered by Continuing Education). 
 Chemistry203,CHEM203,Chemistry 30 (or Continuing Education - Chemistry 2) and one of Mathematics 30-1 or Mathematics 2 (offered by Continuing Education). 
 Chemistry209,CHEM209,Chemistry 30 (or Continuing Education - Chemistry 2) and one of Mathematics 30-1 or Mathematics 2 (offered by Continuing Education). 
@@ -952,7 +602,6 @@ Chemistry669,CHEM669,
 Chemistry681,CHEM681,
 Chemistry689,CHEM689,
 Chemistry701,CHEM701,
-course_name,course_code,prerequisites
 Chinese205,CHIN205,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Chinese207,CHIN207, Chinese 205.
 Chinese229,CHIN229,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
@@ -977,7 +626,6 @@ Chinese403,CHIN403,Chinese 333.
 Chinese431,CHIN431,Chinese 403 or 421.
 Chinese461,CHIN461,Chinese 303 or higher (excluding Chinese 317 and Chinese 355).
 Chinese561,CHIN561,"One of Chinese 403, 421 or 431. "
-course_name,course_code,prerequisites
 Civil Engineering317,ENCI317,Engineering 202 and Mathematics 275 or Applied Mathematics 217.
 Civil Engineering337,ENCI337, Engineering 233.
 Civil Engineering402,ENCI402,Mechanical Engineering 341.
@@ -1044,14 +692,12 @@ Civil Engineering747,ENCI747,
 Civil Engineering749,ENCI749,
 Civil Engineering751,ENCI751,
 Civil Engineering753,ENCI753,
-course_name,course_code,prerequisites
 Communication and Culture201,CMCL201,
 Communication and Culture203,CMCL203,Communication and Culture 201 or 301. 
 Communication and Culture305,CMCL305,
 Communication and Culture307,CMCL307,
 Communication and Culture507,CMCL507,"48 units and consent of the Department of Communication, Media and Film."
 Communication and Culture509,CMCL509,"Communication and Culture 507, or General Studies 507 and consent of the Department of Communication, Media and Film."
-course_name,course_code,prerequisites
 Communication and Media Studies201,COMS201,
 Communication and Media Studies203,COMS203,
 Communication and Media Studies313,COMS313,Communication and Media Studies 201 or Communications Studies 201 or admission to Bachelor of Film Studies.
@@ -1097,7 +743,6 @@ Communication and Media Studies647,COMS647,
 Communication and Media Studies711,COMS711,
 Communication and Media Studies713,COMS713,Admission to the Communication and Media Studies PhD program.
 Communication and Media Studies717,COMS717,
-course_name,course_code,prerequisites
 Community Health Sciences600,MDCH600,Admission to the Community Health Sciences or Public Health and Preventative Medicine program or consent of the program. Not available to Open Studies students.
 Community Health Sciences602,MDCH602,Admission to the Master of Community Medicine specialization or the Public Health and Preventative Medicine program.
 Community Health Sciences603,MDCH603,Admission to the Community Health Sciences graduate program’s Health Care Epidemiology specialization.
@@ -1161,7 +806,6 @@ Community Health Sciences760,MDCH760,Community Health Sciences 660 or Medical Sc
 Community Health Sciences761,MDCH761,"Community Health Sciences 681 or Medical Science 659.02 and admission to the Community Health Sciences graduate program, or consent of the program.
   "
 Community Health Sciences780,MDCH780,Community Health Sciences 680 or Medical Science 651.04 and consent of the program.
-course_name,course_code,prerequisites
 Community Rehabilitation205,CORE205,
 Community Rehabilitation207,CORE207,Community Rehabilitation 205 or consent of the Program.
 Community Rehabilitation209,CORE209,
@@ -1208,12 +852,9 @@ Community Rehabilitation655,CORE655,Must be registered in the Community Health S
 Community Rehabilitation656,CORE656,Must be registered in the Community Health Sciences graduate program. Consent of the instructor is required for all other students.
 Community Rehabilitation676,CORE676,Must be registered in the Community Health Sciences graduate program. Consent of the instructor is required for all other students.
 Community Rehabilitation730,CORE730,Must be registered in the Community Health Sciences graduate program. Consent of the instructor is required for all other graduate students.
-course_name,course_code,prerequisites
 Comparative Literature399,COLT399,
-course_name,course_code,prerequisites
 Computational Media Design601,CMDA601,
 Computational Media Design603,CMDA603,
-course_name,course_code,prerequisites
 Computer Engineering335,ENCM335,Engineering 233.
 Computer Engineering369,ENCM369,Electrical Engineering 353 and Computer Engineering 335 or 339 or Software Engineering for Engineers 337.
 Computer Engineering467,ENCM467, Electrical Engineering 343 and 361.
@@ -1224,7 +865,6 @@ Computer Engineering511,ENCM511, Computer Engineering 369.
 Computer Engineering515,ENCM515, Computer Engineering 369.
 Computer Engineering517,ENCM517, Computer Engineering 335 or 339 or Software Engineering for Software Engineers 337.
 Computer Engineering519,ENCM519, Consent of the Department.
-course_name,course_code,prerequisites
 Computer Science203,CPSC203,
 Computer Science217,CPSC217,
 Computer Science219,CPSC219,Computer Science 217 or Data Science 211.
@@ -1337,13 +977,11 @@ Computer Science771,CPSC771,
 Computer Science781,CPSC781,Computer Science 481.
 Computer Science785,CPSC785,
 Computer Science789,CPSC789,
-course_name,course_code,prerequisites
 Co-operative Education501,COOP501,
 Co-operative Education503,COOP503,
 Co-operative Education511,COOP511,
 Co-operative Education523,COOP523,
 Co-operative Education543,COOP543,
-course_name,course_code,prerequisites
 Dance201,DNCE201,
 Dance205,DNCE205, Dance 201.
 Dance207,DNCE207, Dance 205 and audition or admission to the Dance major.
@@ -1409,9 +1047,7 @@ Dance574,DNCE574," Consent of the Division Chair, Dance."
 Dance581,DNCE581,"Consent of the Division Chair, Dance. "
 Dance591,DNCE591,"Dance 407 or 413, 78 units and consent of the Division Chair, Dance."
 Dance681,DNCE681," Consent of the Division Chair, Dance."
-course_name,course_code,prerequisites
 Dance Education325,DCED325,Admission to the Leadership in Pedagogy and Coaching Major.
-course_name,course_code,prerequisites
 Data Science201,DATA201,
 Data Science211,DATA211,
 Data Science305,DATA305,"Data Science 201; one of Data Science 211, Computer Science 217, 231 or 235; and one of Statistics 205, 217, 327, Biology 315, Economics 395, Political Science 399, Psychology 300, Sociology 311, Engineering 319 or Linguistics 560."
@@ -1435,7 +1071,6 @@ Data Science622,DATA622,"Data Science 601, 602, 603, 604 and admission to the Gr
      "
 Data Science623,DATA623,"Data Science 601, 602, 603, 604 and admission to the Graduate Diploma in Data Science and Analytics."
 Data Science624,DATA624,"Data Science 601, 602, 603, 604 and admission to the Graduate Diploma in Data Science and Analytics."
-course_name,course_code,prerequisites
 Development Studies201,DEST201,
 Development Studies301,DEST301,Development Studies 201.
 Development Studies302,DEST302,Development Studies 201.
@@ -1449,7 +1084,6 @@ Development Studies485,DEST485,Development Studies 393.
 Development Studies501,DEST501,Consent of the Department. 
 Development Studies591,DEST591,"Development Studies 302, 393 and consent of the Department."
 Development Studies593,DEST593,Development Studies 393 and admission to the Development Studies Honours Program.
-course_name,course_code,prerequisites
 Drama203,DRAM203,
 Drama205,DRAM205,
 Drama209,DRAM209,
@@ -1513,15 +1147,11 @@ Drama651,DRAM651,
 Drama660,DRAM660,
 Drama671,DRAM671,
 Drama673,DRAM673,
-course_name,course_code,prerequisites
 Earth Science401,EASC401,Consent of the Department.   
 Earth Science501,EASC501,Consent of the Department.   
-course_name,course_code,prerequisites
 East Asian Language Studies501,EALS501,"Admission to the BA in East Asian Language Studies and consent of the School of Languages, Linguistics, Literatures and Cultures."
-course_name,course_code,prerequisites
 East Asian Studies201,EAST201,
 East Asian Studies531,EAST531,East Asian Studies 201 and one of Chinese 317 or Japanese 317.
-course_name,course_code,prerequisites
 Ecology413,ECOL413, Biology 313 and 315.
 Ecology417,ECOL417, Biology 313 and one of Biology 315 or Environmental Science 401.
 Ecology419,ECOL419, Biology 313 and one of Biology 315 or Environmental Science 401.
@@ -1535,7 +1165,6 @@ Ecology528,ECOL528,72 units and consent of the Department.
 Ecology529,ECOL529,Biology 311 and 313.
 Ecology530,ECOL530,72 units and consent of the Department.
 Ecology603,ECOL603,
-course_name,course_code,prerequisites
 Economics201,ECON201,
 Economics203,ECON203,
 Economics209,ECON209," Registration in the Faculty of Engineering with second-year standing or higher. If not registered in the Schulich School of Engineering, consent of the Department of Economics. If required for APEGA, consent of the Schulich Undergraduate Studies Office."
@@ -1637,7 +1266,6 @@ Economics757,ECON757,Economics 707.
 Economics759,ECON759,Economics 709. 
 Economics791,ECON791,Admission to the PhD program in Economics.
 Economics793,ECON793,Economics 791 and admission to the PhD program in Economics.
-course_name,course_code,prerequisites
 Education101,EDUC101,Admission to Bridging to Community-Based BEd stream in the Bachelor of Education (Community-based) program. 
 Education201,EDUC201,Admission to the Bachelor of Education program or consent of the program.
 Education205,EDUC205,"Admission to Bridging to Community-Based BEd stream in the Bachelor of Education (Community-Based) program, or consent of the program."
@@ -1670,14 +1298,12 @@ Education551,EDUC551,Education 540 and admission to the corresponding route in t
 Education556,EDUC556,Education 540 and admission to the corresponding route in the Bachelor of Education program.
 Education560,EDUC560,Education 540.
 Education570,EDUC570,Consent of the Department.
-course_name,course_code,prerequisites
 Education Bridge to Teaching601,EDBT601,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
 Education Bridge to Teaching602,EDBT602,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
 Education Bridge to Teaching603,EDBT603,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
 Education Bridge to Teaching604,EDBT604,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
 Education Bridge to Teaching605,EDBT605,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
 Education Bridge to Teaching606,EDBT606,Admission to the Bridge to Teaching program or consent of Graduate Programs in Education.
-course_name,course_code,prerequisites
 Educational Psychology600,EDPS600,Admission to a graduate program in Educational Psychology or the consent of Graduate Programs in Education.
 Educational Psychology601,EDPS601,Admission to a graduate program in Educational Psychology or the consent of Graduate Programs in Education.
 Educational Psychology602,EDPS602,Admission to a graduate program in Educational Psychology.
@@ -1814,7 +1440,6 @@ Educational Psychology793,EDPS793,Admission to a doctoral program in Educational
 Educational Psychology794,EDPS794,Admission to a doctoral program in Educational Psychology.
 Educational Psychology795,EDPS795,Admission to the doctoral program in Educational Research with specialization in School and Applied Child Psychology and consent of the Training Director.
 Educational Psychology798,EDPS798,
-course_name,course_code,prerequisites
 Educational Research600,EDER600,"Admission to a graduate program in Educational Research, or the consent of Graduate Programs in Education.	"
 Educational Research602,EDER602,"Admission to a graduate program in Educational Research or consent of Graduate Programs in Education.
  "
@@ -1922,7 +1547,6 @@ Educational Research786,EDER786,Admission to a doctoral program in Educational R
 Educational Research787,EDER787,Admission to a doctoral program in Educational Research.
 Educational Research798,EDER798,"Admission to a doctoral program in Educational Research.
   "
-course_name,course_code,prerequisites
 Electrical Engineering101,ENEL101,Engineering 233.
 Electrical Engineering102,ENEL102,Electrical Engineering 101 and Applied Mathematics 307 or Mathematics 375. 
 Electrical Engineering300,ENEL300,"Engineering 225, 233 and Electrical Engineering 353."
@@ -2005,13 +1629,11 @@ Electrical Engineering693,ENEL693,
 Electrical Engineering695,ENEL695,Electrical Engineering 587 or 601 or consent of the Department.
 Electrical Engineering697,ENEL697,Electrical Engineering 327.
 Electrical Engineering698,ENEL698, Electrical Engineering 327.
-course_name,course_code,prerequisites
 Energy and Environmental Systems601,EESS601,Graduate standing in Energy and Environmental Systems specialization or instructor permission.
 Energy and Environmental Systems603,EESS603,Graduate standing in Energy and Environmental Systems specialization or instructor permission.
 Energy and Environmental Systems606,EESS606,Graduate standing in Energy and Environmental Systems specialization or instructor permission.
 Energy and Environmental Systems607,EESS607,Graduate standing in Energy and Environmental Systems specialization or instructor permission.
 Energy and Environmental Systems619,EESS619,Graduate standing in the Energy and Environmental Systems specialization or instructor permission.
-course_name,course_code,prerequisites
 Energy Engineering240,ENER240,Admission to the BSc Energy Engineering program.
 Energy Engineering260,ENER260,Admission to the BSc Energy Engineering program.
 Energy Engineering300,ENER300,Admission to the BSc Energy Engineering program.
@@ -2024,13 +1646,11 @@ Energy Engineering460,ENER460,Energy Engineering 240 and Mathematics 209 and adm
 Energy Engineering480,ENER480,Energy Engineering 240 and 260 and admission to the BSc Energy Engineering program.
 Energy Engineering560,ENER560,Engineering 201 and Energy Engineering 340 and admission to the BSc Energy Engineering program.
 Energy Engineering570,ENER570,Engineering 311 and admission to the BSc Energy Engineering program.
-course_name,course_code,prerequisites
 Energy Management301,ENMG301,Admission to the Energy and Professional Land Management Concentration (Haskayne School of Business) or the Engineering Energy and Environment specialization (Schulich School of Engineering) or the Energy Sciences Concentration (Faculty of Science).
 Energy Management403,ENMG403,Admission to the Haskayne School of Business and 54 units.
 Energy Management485,ENMG485,Admission to the Haskayne School of Business and Finance 317.
 Energy Management487,ENMG487,Admission to the Haskayne School of Business and Finance 317.
 Energy Management489,ENMG489,Admission to the Haskayne School of Business.
-course_name,course_code,prerequisites
 Engineering200,ENGG200,
 Engineering201,ENGG201,
 Engineering202,ENGG202,
@@ -2064,7 +1684,6 @@ Engineering682,ENGG682,
 Engineering683,ENGG683,
 Engineering684,ENGG684,
 Engineering687,ENGG687,
-course_name,course_code,prerequisites
 English203,ENGL203,
 English251,ENGL251,
 English253,ENGL253,
@@ -2157,7 +1776,6 @@ English694,ENGL694,Consent of the Department.
 English695,ENGL695,Consent of the Department.
 English698,ENGL698,Consent of the Department.
 English710,ENGL710,Consent of the Department.
-course_name,course_code,prerequisites
 Entrepreneurship and Innovation201,ENTI201,
 Entrepreneurship and Innovation317,ENTI317,"Admission to the Haskayne School of Business, Management Studies 217 and Strategy and Global Management 217."
 Entrepreneurship and Innovation359,ENTI359,24 units. For certain topics consent of the Haskayne School of Business will also be required. 
@@ -2185,7 +1803,6 @@ Entrepreneurship and Innovation791,ENTI791,
 Entrepreneurship and Innovation793,ENTI793,
 Entrepreneurship and Innovation797,ENTI797,Consent of the Haskayne School of Business.
 Entrepreneurship and Innovation799,ENTI799,
-course_name,course_code,prerequisites
 Environmental Design401,EVDS401,
 Environmental Design402,EVDS402,
 Environmental Design502,EVDS502,
@@ -2229,7 +1846,6 @@ Environmental Design753,EVDS753,Consent of the Faculty.
 Environmental Design783,EVDS783,Consent of the Faculty.
 Environmental Design793,EVDS793,Consent of the Faculty.
 Environmental Design797,EVDS797,
-course_name,course_code,prerequisites
 Environmental Design Architecture511,EVDA511,Admission to the Master of Architecture Program.
 Environmental Design Architecture523,EVDA523,Admission to the Master of Architecture Program.
 Environmental Design Architecture541,EVDA541,Admission to the Master of Architecture Program.
@@ -2248,7 +1864,6 @@ Environmental Design Architecture682,EVDA682,"For EVDA 682.02: Environmental Des
    "
 Environmental Design Architecture703,EVDA703,
 Environmental Design Architecture782,EVDA782,
-course_name,course_code,prerequisites
 Environmental Design Landscape603,EVDL603,
 Environmental Design Landscape605,EVDL605,
 Environmental Design Landscape607,EVDL607,
@@ -2262,7 +1877,6 @@ Environmental Design Landscape667,EVDL667,Environmental Design Planning 625.
 Environmental Design Landscape668,EVDL668,
 Environmental Design Landscape767,EVDL767,
 Environmental Design Landscape777,EVDL777,
-course_name,course_code,prerequisites
 Environmental Design Planning602,EVDP602,
 Environmental Design Planning611,EVDP611,
 Environmental Design Planning621,EVDP621,
@@ -2275,7 +1889,6 @@ Environmental Design Planning635,EVDP635,
 Environmental Design Planning636,EVDP636,Environmental Design Planning 625.
 Environmental Design Planning637,EVDP637,"Environmental Design Planning 625; 636 or 637; and one of Environmental Design 618, 620, 623 or 640. "
 Environmental Design Planning644,EVDP644,
-course_name,course_code,prerequisites
 Environmental Engineering603,ENEN603,
 Environmental Engineering605,ENEN605,
 Environmental Engineering616,ENEN616,
@@ -2308,7 +1921,6 @@ Environmental Engineering682,ENEN682,"Consent of the Centre.
    "
 Environmental Engineering691,ENEN691,
 Environmental Engineering693,ENEN693,
-course_name,course_code,prerequisites
 Environmental Science201,ENSC201,
 Environmental Science401,ENSC401,Geography 339 or Biology 315 or Statistics 327 and admission to the Environmental Science program.
 Environmental Science501,ENSC501,Environmental Science 401 and admission to the Environmental Science program. 
@@ -2316,7 +1928,6 @@ Environmental Science502,ENSC502,Admission to the Environmental Science program.
 Environmental Science503,ENSC503,Admission to the Environmental Science program. 
 Environmental Science504,ENSC504,Consent of the Environmental Science Program Director.
 Environmental Science505,ENSC505,Consent of the Environmental Science Program Director.
-course_name,course_code,prerequisites
 Film201,FILM201,
 Film203,FILM203,
 Film301,FILM301,
@@ -2341,7 +1952,6 @@ Film509,FILM509,6 units of Film at the 400 level.
 Film591,FILM591,"Admission to the BA in Film Studies and 78 units, of which, 6 units must be taken from Film 321, 323, 331, or 333. "
 Film595,FILM595,Admission to BA Honours Film Studies.
 Film597,FILM597,Film 595 and admission to BA Honours in Film Studies. 
-course_name,course_code,prerequisites
 Finance317,FNCE317,"Admission to the Haskayne School of Business, 30 units including Mathematics 249 or 251 or 265 or 281, Economics 201 and 203, Statistics 213 and 217, Accounting 217 or 317, and Business and Environment 291 or Management Studies 217."
 Finance341,FNCE341,30 units.
 Finance343,FNCE343,30 units.
@@ -2379,9 +1989,7 @@ Finance789,FNCE789,
 Finance795,FNCE795, Finance 601.
 Finance797,FNCE797, Consent of the Haskayne School of Business.
 Finance799,FNCE799,
-course_name,course_code,prerequisites
 Fine Arts601,FINA601,Consent of the Faculty.
-course_name,course_code,prerequisites
 French209,FREN209,
 French211,FREN211, French 20 or French 209.
 French213,FREN213,"One of French 211, 30, or N30."
@@ -2426,7 +2034,6 @@ French685,FREN685,
 French689,FREN689,
 French691,FREN691,
 French695,FREN695,
-course_name,course_code,prerequisites
 Geography204,GEOG204,
 Geography254,GEOG254,
 Geography280,GEOG280,
@@ -2511,7 +2118,6 @@ Geography699,GEOG699, Consent of the Department.
 Geography795,GEOG795, Consent of the Department.
 Geography797,GEOG797, Consent of the Department.
 Geography799,GEOG799, Consent of the Department.
-course_name,course_code,prerequisites
 Geology201,GLGY201,
 Geology202,GLGY202,Geology 201.
 Geology209,GLGY209,
@@ -2586,7 +2192,6 @@ Geology703,GLGY703,
 Geology705,GLGY705,Consent of the Department.
 Geology707,GLGY707,
 Geology733,GLGY733,
-course_name,course_code,prerequisites
 Geomatics Engineering319,ENGO319,Mathematics 211 and 277.
 Geomatics Engineering327,ENGO327,Mathematics 375 or Applied Mathematics 307.
 Geomatics Engineering333,ENGO333, Engineering 233.
@@ -2641,7 +2246,6 @@ Geomatics Engineering694,ENGO694,
 Geomatics Engineering697,ENGO697,Consent of the Department Head or Associate Head Graduate Studies.
 Geomatics Engineering698,ENGO698,
 Geomatics Engineering699,ENGO699,
-course_name,course_code,prerequisites
 Geophysics351,GOPH351,"Geology 201 and 202; Mathematics 267 or 277; Physics 211 or 221, and 223."
 Geophysics355,GOPH355,"Geology 201 and 202; Mathematics 267 or 277; Physics 211 or 221, and 223.  "
 Geophysics375,GOPH375,
@@ -2673,7 +2277,6 @@ Geophysics701,GOPH701,"Admission to a graduate program in Geoscience.
   "
 Geophysics703,GOPH703,Admission to a graduate program in Geoscience.
 Geophysics705,GOPH705,Consent of the Department
-course_name,course_code,prerequisites
 German200,GERM200,
 German202,GERM202,
 German204,GERM204, German 202.
@@ -2702,7 +2305,6 @@ German629,GERM629,
 German631,GERM631,
 German696,GERM696,
 German699,GERM699,
-course_name,course_code,prerequisites
 Greek201,GREK201,
 Greek203,GREK203,Greek 201.
 Greek301,GREK301,Greek 203.
@@ -2715,7 +2317,6 @@ Greek602,GREK602,"Greek 602.01 must be taken before Greek 602.02.
    "
 Greek604,GREK604,
 Greek607,GREK607,
-course_name,course_code,prerequisites
 Greek and Roman Studies205,GRST205,
 Greek and Roman Studies209,GRST209,
 Greek and Roman Studies211,GRST211,
@@ -2763,7 +2364,6 @@ Greek and Roman Studies551,GRST551,Consent of the Department.
 Greek and Roman Studies601,GRST601,
 Greek and Roman Studies603,GRST603,
 Greek and Roman Studies651,GRST651,Consent of the Department.
-course_name,course_code,prerequisites
 Health and Society201,HSOC201,
 Health and Society301,HSOC301, Health and Society 201 or consent of the Department.
 Health and Society311,HSOC311, Health and Society 201 or consent of the Department.
@@ -2771,7 +2371,6 @@ Health and Society401,HSOC401, Health and Society 201 and third year or higher i
 Health and Society403,HSOC403,Health and Society 301.
 Health and Society408,HSOC408, Medical Science 308 and admission to the BHSc Honours program.
 Health and Society591,HSOC591, Health and Society 401 and registration in the BHSc Honours Health and Society major.
-course_name,course_code,prerequisites
 History200,HTST200,
 History201,HTST201,
 History202,HTST202,
@@ -2906,8 +2505,6 @@ History690,HTST690,
 History691,HTST691,
 History791,HTST791,
 History795,HTST795,
-course_name,course_code,prerequisites
-course_name,course_code,prerequisites
 Indigenous Studies201,INDG201,
 Indigenous Studies303,INDG303,
 Indigenous Studies305,INDG305,"One of Social Work 201, Indigenous Studies 203, Social Work 203, Indigenous Studies 303, Social Work 553.30, Social Work 553.33 or admission to the BSW Post-Diploma."
@@ -2923,7 +2520,6 @@ Indigenous Studies415,INDG415,"Indigenous Studies 201 and an additional 3 units 
 Indigenous Studies492,INDG492,"Psychology 200, 201, and admission to the International Indigenous Studies major."
 Indigenous Studies502,INDG502,"60 units, including 3 units in courses labelled Indigenous Studies at the 300 level or above."
 Indigenous Studies503,INDG503,"60 units, including 3 units in courses labelled Indigenous Studies at the 300 level."
-course_name,course_code,prerequisites
 Information Security601,ISEC601,"Admission to the Graduate Certificate in Network Security.
     "
 Information Security603,ISEC603,"Admission to the Graduate Certificate in Network Security.
@@ -2935,10 +2531,8 @@ Information Security625,ISEC625,Admission to the Graduate Certificate in Softwar
 Information Security641,ISEC641,Admission to the Graduate Certificate in Network Security or the Graduate Certificate in Software Security.
 Information Security643,ISEC643,Admission to the Graduate Certificate in Network Security or the Graduate Certificate in Software Security.
 Information Security645,ISEC645,Admission to the Graduate Certificate in Network Security or the Graduate Certificate in Software Security.
-course_name,course_code,prerequisites
 Innovation321,INNO321,
 Innovation323,INNO323,
-course_name,course_code,prerequisites
 International Foundations Program150,IFPX150,Admission to IFP Bridging Qatar campus.
 International Foundations Program153,IFPX153,Admission to IFP Bridging Qatar campus.
 International Foundations Program157,IFPX157,Admission to IFP Bridging Qatar campus.
@@ -2981,14 +2575,12 @@ International Foundations Program651,IFPX651,"Admission to IFP Pathways Master o
      "
 International Foundations Program655,IFPX655,"Admission to IFP Pathways Master of Engineering program, or consent of the program.
      "
-course_name,course_code,prerequisites
 International Foundations Program Business201,IFPB201,Admission to IFP Pathways with Haskayne School of Business.
 International Foundations Program Business203,IFPB203,Admission to IFP Pathways with Haskayne School of Business.
 International Foundations Program Business213,IFPB213,Admission to IFP Pathways with Haskayne School of Business.
 International Foundations Program Business217,IFPB217,Admission to IFP Pathways with Haskayne School of Business.
 International Foundations Program Business227,IFPB227,Admission to IFP Pathways with Haskayne School of Business.
 International Foundations Program Business231,IFPB231,Admission to IFP Pathways with Haskayne School of Business.
-course_name,course_code,prerequisites
 International Foundations Program Engineering200,IFPE200,Admission to IFP Pathways with Schulich School of Engineering. 
 International Foundations Program Engineering201,IFPE201,Admission to IFP Pathways with Schulich School of Engineering.   
 International Foundations Program Engineering202,IFPE202,Admission to IFP Pathways with Schulich School of Engineering. 
@@ -3007,11 +2599,9 @@ International Foundations Program Engineering683,IFPE683,"Admission to IFP Pathw
    "
 International Foundations Program Engineering684,IFPE684,"Admission to IFP Pathways in the Master of Engineering program, or consent of the program.
    "
-course_name,course_code,prerequisites
 International Relations301,INTR301,Admission to the International Relations program.
 International Relations501,INTR501,"International Relations 301 and third- or fourth-year, admission to the International Relations program and completion of at least 60 units."
 International Relations597,INTR597,"Admission to the International Relations program, completion of at least 60 units, and consent of the Program Co-ordinator. "
-course_name,course_code,prerequisites
 Internship503,INTE503,
 Internship513,INTE513,
 Internship591,INTE591,"Admission to BFA Drama, 90 units and consent of the Division Chair, Drama.  "
@@ -3020,7 +2610,6 @@ Internship601,INTE601,"Consent of the Faculty of Graduate Studies.
 Internship602,INTE602,Consent of the Faculty of Graduate Studies.
 Internship603,INTE603,Consent of the Faculty of Graduate Studies.  
 Internship604,INTE604,Consent of the Faculty of Graduate Studies.  
-course_name,course_code,prerequisites
 Interprofessional Health Education501,IPHE501,"One of Community Rehabilitation 209, 435, Kinesiology 355, Nursing 303, 305, Psychology 203, 205, Social Work 300, 302, 304, 306, 363 or consent of the instructor(s)."
 Interprofessional Health Education503,IPHE503,"One of Community Rehabilitation 209, 435, Kinesiology 355, Nursing 303, 305, Psychology 203, 205, Social Work 300, 302, 304, 306, 363 or consent of the instructor(s)."
 Interprofessional Health Education598,IPHE598,Consent of the Faculty.
@@ -3030,7 +2619,6 @@ Interprofessional Health Education605,IPHE605,Consent of the instructor(s).
 Interprofessional Health Education607,IPHE607,Consent of the instructor(s).
 Interprofessional Health Education609,IPHE609,Consent of the instructor(s).
 Interprofessional Health Education611,IPHE611,Consent of the instructor(s).
-course_name,course_code,prerequisites
 Italian201,ITAL201,
 Italian203,ITAL203," Italian 30, Italian 201 or equivalent."
 Italian301,ITAL301, Italian 203.
@@ -3049,7 +2637,6 @@ Italian501,ITAL501,Italian 303 and 3 units at the senior level and consent of th
 Italian502,ITAL502,Italian 303 and 3 units at the senior level.
 Italian597,ITAL597,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Italian599,ITAL599,Italian 303 and 3 units at the senior level.
-course_name,course_code,prerequisites
 Japanese201,JPNS201,
 Japanese205,JPNS205,
 Japanese207,JPNS207,Japanese 30 or Japanese 205.
@@ -3069,7 +2656,6 @@ Japanese441,JPNS441,Japanese 331.
 Japanese451,JPNS451,Japanese 331.
 Japanese461,JPNS461,Japanese 303 or higher (excluding Japanese 317).
 Japanese471,JPNS471,Japanese 331.
-course_name,course_code,prerequisites
 Kinesiology201,KNES201,Biology 30.
 Kinesiology203,KNES203,Biology 30 and Chemistry 30.
 Kinesiology213,KNES213,"Biology 30, Chemistry 30, and Mathematics 30-1."
@@ -3163,7 +2749,6 @@ Kinesiology717,KNES717,Admission to a Graduate Program in Kinesiology.
 Kinesiology773,KNES773, Kinesiology 673 and admission to a Graduate Program in Kinesiology.
 Kinesiology775,KNES775, Kinesiology 773 and admission to a Graduate Program in Kinesiology.
 Kinesiology785,KNES785, Kinesiology 773 and admission to a Graduate Program in Kinesiology.
-course_name,course_code,prerequisites
 Language200,LANG200,
 Language300,LANG300,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Language400,LANG400,Language 300.
@@ -3174,7 +2759,6 @@ Language605,LANG605,"Consent of the School of Languages, Linguistics, Literature
 Language615,LANG615,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Language625,LANG625,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Language699,LANG699,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
-course_name,course_code,prerequisites
 Latin201,LATI201,
 Latin203,LATI203,Latin 201 or 205.
 Latin205,LATI205,
@@ -3188,14 +2772,12 @@ Latin601,LATI601,
 Latin602,LATI602,
 Latin604,LATI604,
 Latin607,LATI607,
-course_name,course_code,prerequisites
 Latin American Studies211,LAST211,
 Latin American Studies301,LAST301,Consent of the Program Co-ordinator.
 Latin American Studies303,LAST303,Consent of the Program Co-ordinator.
 Latin American Studies311,LAST311,
 Latin American Studies401,LAST401,"Latin American Studies 201 or 211; and 203 or 311, and 48 units."
 Latin American Studies501,LAST501,48 units and consent of the Program Co-ordinator.
-course_name,course_code,prerequisites
 Law400,LAW400,
 Law402,LAW402,
 Law403,LAW403,
@@ -3308,7 +2890,6 @@ Law703,LAW703,"Admission to the LLM program or consent of the Graduate Director.
   "
 Law705,LAW705,Admission to the LLM program or consent of the Graduate Director.
 Law706,LAW706,Admission to the LLM program or consent of the Graduate Director.
-course_name,course_code,prerequisites
 Law and Society201,LWSO201,
 Law and Society203,LWSO203,
 Law and Society313,LWSO313,Law and Society 201.
@@ -3321,7 +2902,6 @@ Law and Society425,LWSO425,48 units.
 Law and Society501,LWSO501,Consent of the Department.
 Law and Society590,LWSO590,3 units from the list of Research Methods Courses within Courses Constituting the Field of Law and Society; admission to the Law and Society Honours program; and consent of the Department.
 Law and Society591,LWSO591,"Law and Society 413 and 415, 90 units and admission to the Law and Society major."
-course_name,course_code,prerequisites
 Linguistics201,LING201,
 Linguistics202,LING202,Linguistics 201. 
 Linguistics221,LING221,
@@ -3376,7 +2956,6 @@ Linguistics671,LING671,Consent of the program.
 Linguistics697,LING697,
 Linguistics699,LING699,
 Linguistics797,LING797,
-course_name,course_code,prerequisites
 Management Studies217,MGST217,Admission to the Haskayne School of Business.
 Management Studies301,MGST301,Admission to the Haskayne School of Business Bachelor of Commerce (Honours) program.
 Management Studies359,MGST359,24 units. For certain topics consent of the Haskayne School of Business and/or admission to the Haskayne School of Business will also be required. 
@@ -3419,7 +2998,6 @@ Management Studies795,MGST795,"Management Studies 781 or 783.
   "
 Management Studies797,MGST797, Consent of the Haskayne School of Business.
 Management Studies799,MGST799,Consent of the Haskayne School of Business
-course_name,course_code,prerequisites
 Manufacturing Engineering417,ENMF417, Engineering 200.
 Manufacturing Engineering501,ENMF501,Engineering 319.
 Manufacturing Engineering503,ENMF503,Manufacturing Engineering 417 and Mechanical Engineering 337.
@@ -3437,7 +3015,6 @@ Manufacturing Engineering619,ENMF619,
 Manufacturing Engineering621,ENMF621,
 Manufacturing Engineering623,ENMF623,
 Manufacturing Engineering698,ENMF698,
-course_name,course_code,prerequisites
 Marine Science321,MRSC321,Biology 241 and 243.
 Marine Science420,MRSC420,Consent of the Department.
 Marine Science430,MRSC430,Consent of the Department.
@@ -3457,7 +3034,6 @@ Marine Science574,MRSC574,Consent of the Department.
 Marine Science600,MRSC600,Consent of the Department.
 Marine Science601,MRSC601,Consent of the Department.
 Marine Science602,MRSC602,Consent of the Department.
-course_name,course_code,prerequisites
 Marketing317,MKTG317," Admission to the Haskayne School of Business, and 30 units including Business and Environment 291 or Strategy and Global Management 217."
 Marketing341,MKTG341,
 Marketing431,MKTG431,Admission to the Haskayne School of Business and Marketing 317.
@@ -3486,7 +3062,6 @@ Marketing793,MKTG793, Marketing 601.
 Marketing795,MKTG795, Marketing 601.
 Marketing797,MKTG797, Consent of the Haskayne School of Business.
 Marketing799,MKTG799,
-course_name,course_code,prerequisites
 Mathematics177,MATH177,Mathematics 211 and 267.
 Mathematics205,MATH205,"Mathematics 30-1, 30-2, or Mathematics 2 (offered by Continuing Education)."
 Mathematics209,MATH209,Admission to the Energy Engineering Program.
@@ -3573,7 +3148,6 @@ Mathematics683,MATH683,Admission to a graduate program in Mathematics and Statis
 Mathematics685,MATH685,Admission to a graduate program in Mathematics and Statistics or consent of the Department.
 Mathematics691,MATH691,Mathematics 681 and admission to a graduate program in Mathematics and Statistics or consent of the Department.
 Mathematics693,MATH693,Mathematics 681 and 683 and admission to a graduate program in Mathematics and Statistics or consent of the Department. 
-course_name,course_code,prerequisites
 Mechanical Engineering101,ENME101,
 Mechanical Engineering317,ENME317,Engineering 202; and Mathematics 275 or Applied Mathematics 217.
 Mechanical Engineering337,ENME337,Engineering 233.
@@ -3636,7 +3210,6 @@ Mechanical Engineering685,ENME685,
 Mechanical Engineering698,ENME698, Consent of the Faculty.
 Mechanical Engineering708,ENME708,
 Mechanical Engineering713,ENME713,
-course_name,course_code,prerequisites
 Medical Graduate Education601,MDGE601,"Admission to the Master of Biomedical Technology program or consent of the Program Director.
  "
 Medical Graduate Education602,MDGE602,Admission to the Master of Biomedical Technology program or consent of the program.
@@ -3694,7 +3267,6 @@ Medical Graduate Education726,MDGE726,Consent of the program.
 Medical Graduate Education755,MDGE755,Consent of the program.
 Medical Graduate Education799,MDGE799,"Consent of the program.
   "
-course_name,course_code,prerequisites
 Medical Physics623,MDPH623,Consent of the Department.
 Medical Physics625,MDPH625,Medical Physics 623 and consent of the Department.
 Medical Physics632,MDPH632,Medical Physics 623 and consent of the Department. 
@@ -3708,7 +3280,6 @@ Medical Physics721,MDPH721,Consent of the Department.
 Medical Physics722,MDPH722,Medical Physics 721 and consent of the Department.
 Medical Physics731,MDPH731,Consent of the Department.
 Medical Physics741,MDPH741,Consent of the Department.
-course_name,course_code,prerequisites
 Medical Science203,MDSC203, Admission to the BHSc Honours program.
 Medical Science205,MDSC205, Medical Science 203 and admission to the BHSc Honours program.
 Medical Science307,MDSC307, Second-year or higher in the BHSc Honours program or consent of the instructor.
@@ -3800,7 +3371,6 @@ Medical Science749,MDSC749,Admission to the Master of Pathologists' Assistant pr
 Medical Science750,MDSC750,Admission to the Master of Pathologists' Assistant program or consent of the instructor.
 Medical Science751,MDSC751,Consent of the Faculty.
 Medical Science755,MDSC755,Consent of the Faculty. 
-course_name,course_code,prerequisites
 Medicine320,MDCN320,
 Medicine330,MDCN330,
 Medicine340,MDCN340,
@@ -3834,7 +3404,6 @@ Medicine515,MDCN515,
 Medicine516,MDCN516,
 Medicine520,MDCN520,
 Medicine522,MDCN522,
-course_name,course_code,prerequisites
 Museum and Heritage Studies201,MHST201,
 Museum and Heritage Studies331,MHST331,Museum and Heritage Studies 201.
 Museum and Heritage Studies333,MHST333,Museum and Heritage Studies 201. 
@@ -3842,7 +3411,6 @@ Museum and Heritage Studies401,MHST401,Museum and Heritage Studies 201 or consen
 Museum and Heritage Studies433,MHST433,Museum and Heritage Studies 201.
 Museum and Heritage Studies501,MHST501,Consent of the Program Co-ordinator. 
 Museum and Heritage Studies533,MHST533,
-course_name,course_code,prerequisites
 Music105,MUSI105,"Admission to a BMus program, the BA (Music) program or the BA Honours (Music) program."
 Music127,MUSI127,Admission to a BMus program.
 Music203,MUSI203,
@@ -3918,7 +3486,6 @@ Music741,MUSI741,
 Music751,MUSI751,
 Music753,MUSI753,
 Music761,MUSI761,
-course_name,course_code,prerequisites
 Music Education331,MUED331, Music 211 and 225 or Music Theory and Composition 203 and 221.
 Music Education333,MUED333, Music Education 331.
 Music Education341,MUED341,
@@ -3935,7 +3502,6 @@ Music Education695,MUED695,
 Music Education697,MUED697,
 Music Education755,MUED755," Consent of the Division Chair, Music."
 Music Education771,MUED771," Consent of the Division Chair, Music."
-course_name,course_code,prerequisites
 Music Performance201,MUPF201,
 Music Performance203,MUPF203,
 Music Performance205,MUPF205,
@@ -3968,14 +3534,12 @@ Music Performance641,MUPF641," Consent of the Division Chair, Music."
 Music Performance643,MUPF643," Music Performance 641 or consent of the Division Chair, Music."
 Music Performance645,MUPF645,"Consent of the Division Chair, Music.
   "
-course_name,course_code,prerequisites
 Nanoscience301,NANS301,18 units in courses offered by the Faculty of Science. 
 Nanoscience401,NANS401,Nanoscience 301.
 Nanoscience443,NANS443,"Applied Mathematics 217 or Mathematics 275 or Mathematics 249, 251 or 265 or 281 and Mathematics 211 or 213 and Physics 223 and 255."
 Nanoscience502,NANS502, Nanoscience 401 and admission to the Nanoscience minor.
 Nanoscience511,NANS511, Nanoscience 401.
 Nanoscience599,NANS599,Nanoscience 401. 
-course_name,course_code,prerequisites
 Neuroscience201,NEUR201,Biology 30 and admission to the Neuroscience program.
 Neuroscience301,NEUR301,Biology 231 or 241 and Neuroscience 201 and admission to the Neuroscience program.
 Neuroscience321,NEUR321,
@@ -3993,7 +3557,6 @@ Neuroscience507,NEUR507,60 units and admission to the Neuroscience program.
 Neuroscience511,NEUR511,75 units and admission to the Neuroscience program.
 Neuroscience521,NEUR521,Psychology 375; 301 or 312; and admission to the Neuroscience program.
 Neuroscience531,NEUR531,Psychology 475 or Neuroscience 475; and admission to the Neuroscience program.
-course_name,course_code,prerequisites
 Nursing201,NURS201,
 Nursing203,NURS203,
 Nursing205,NURS205,
@@ -4111,7 +3674,6 @@ Nursing723,NURS723,
 Nursing733,NURS733,Nursing 705 and one graduate level advanced research course.
 Nursing769,NURS769,Consent of the Faculty.
 Nursing783,NURS783,Nursing 683.
-course_name,course_code,prerequisites
 Operations Management301,OPMA301,"Any 200-level Mathematics or Statistics 213 (or equivalent, excluding Statistics 201), and Entrepreneurship and Innovation 201."
 Operations Management317,OPMA317,"Admission to the Haskayne School of Business, Business and Environment 291 or Management Studies 217, and Statistics 213."
 Operations Management401,OPMA401,"Admission to the Haskayne School of Business, Operations Management 317 and Management Studies 391."
@@ -4132,7 +3694,6 @@ Operations Management743,OPMA743, Operations Management 601 and Management Studi
 Operations Management745,OPMA745, Operations Management 601 and Management Studies 613.
 Operations Management797,OPMA797, Consent of the Haskayne School of Business.
 Operations Management799,OPMA799,
-course_name,course_code,prerequisites
 Organizational Behaviour and Human Resources317,OBHR317,"Admission to the Haskayne School of Business, and Business and Environment 291 or Strategy and Global Management 217.
    "
 Organizational Behaviour and Human Resources321,OBHR321,
@@ -4171,7 +3732,6 @@ Organizational Behaviour and Human Resources793,OBHR793,Organizational Behaviour
 Organizational Behaviour and Human Resources797,OBHR797,"Consent of the Haskayne School of Business.
    "
 Organizational Behaviour and Human Resources799,OBHR799,
-course_name,course_code,prerequisites
 Petroleum Engineering313,ENPE313,
 Petroleum Engineering423,ENPE423,Chemical Engineering 315 and admission to the Oil and Gas Engineering program.
 Petroleum Engineering429,ENPE429,"Engineering 311, Petroleum Engineering 313 and Geology 377 and admission to the Oil & Gas or Chemical Engineering with Petroleum Minor program."
@@ -4200,7 +3760,6 @@ Petroleum Engineering624,ENPE624,
 Petroleum Engineering625,ENPE625,
 Petroleum Engineering626,ENPE626,
 Petroleum Engineering627,ENPE627,
-course_name,course_code,prerequisites
 Philosophy201,PHIL201,
 Philosophy249,PHIL249,
 Philosophy259,PHIL259,
@@ -4291,11 +3850,9 @@ Philosophy691,PHIL691,
 Philosophy695,PHIL695,
 Philosophy699,PHIL699,
 Philosophy700,PHIL700,
-course_name,course_code,prerequisites
 Physical Education321,PHED321,"Kinesiology 201, 321 and admission to the Leadership in Pedagogy and Coaching Major. "
 Physical Education333,PHED333,Kinesiology 201 and 321 and admission to the Leadership in Pedagogy and Coaching Major.
 Physical Education349,PHED349,Kinesiology 201 and admission to the Leadership in Pedagogy and Coaching Major.
-course_name,course_code,prerequisites
 Physics106,PHYS106,Consent of the Department.
 Physics211,PHYS211,Mathematics 30-1 or Mathematics 2 (offered by Continuing Education). Note: Physics 30 is recommended as preparation for Physics 211.
 Physics221,PHYS221,"A grade of 70 per cent or higher in Physics 30; 50 per cent or higher in Mathematics 31; and 70 per cent or higher in Mathematics 30-1 or a grade of ""B-"" or 70 per cent or better in Mathematics 2 (offered by Continuing Education)."
@@ -4355,7 +3912,6 @@ Physics691,PHYS691,
 Physics697,PHYS697,
 Physics699,PHYS699,
 Physics701,PHYS701,
-course_name,course_code,prerequisites
 Plant Biology327,PLBI327,Biology 371.
 Plant Biology401,PLBI401,"Biology 331, 371, and one of Biochemistry 341 or 393. "
 Plant Biology403,PLBI403,Biology 371. 
@@ -4366,7 +3922,6 @@ Plant Biology530,PLBI530,72 units and consent of the Department.
 Plant Biology541,PLBI541,Botany 327 or Plant Biology 327. 
 Plant Biology543,PLBI543,Biology 331 and one of Botany 303 or 321 or Plant Biology 403 or 421. 
 Plant Biology633,PLBI633,
-course_name,course_code,prerequisites
 Political Science201,POLI201,
 Political Science213,POLI213,
 Political Science279,POLI279,
@@ -4487,13 +4042,11 @@ Political Science741,POLI741,
 Political Science755,POLI755,
 Political Science781,POLI781,
 Political Science791,POLI791,
-course_name,course_code,prerequisites
 Professional Land Management475,PLMA475,Admission to the Haskayne School of Business and 60 units including Business and Environment 395. 
 Professional Land Management573,PLMA573,"Admission to the Haskayne School of Business, Professional Land Management 475 and Business and Environment 395."
 Professional Land Management579,PLMA579,"Admission to the Haskayne School of Business, Professional Land Management 475, 583, Business and Environment 395 and Finance 317."
 Professional Land Management583,PLMA583,"Admission to the Haskayne School of Business, Professional Land Management 475 and Business and Environment 395."
 Professional Land Management587,PLMA587,"Admission to the Haskayne School of Business, Professional Land Management 475, 573, 583 and Finance 317."
-course_name,course_code,prerequisites
 Psychology200,PSYC200,
 Psychology201,PSYC201,
 Psychology203,PSYC203,
@@ -4619,7 +4172,6 @@ Psychology765,PSYC765,"Admission to the Clinical Psychology graduate program.
   "
 Psychology798,PSYC798,"Admission to the Clinical Psychology graduate program.
  "
-course_name,course_code,prerequisites
 Public Policy601,PPOL601,
 Public Policy603,PPOL603,
 Public Policy605,PPOL605,
@@ -4632,7 +4184,6 @@ Public Policy617,PPOL617,
 Public Policy619,PPOL619,
 Public Policy621,PPOL621,
 Public Policy623,PPOL623,
-course_name,course_code,prerequisites
 Real Estate Studies317,REAL317,Admission to the Haskayne School of Business and 30 units.
 Real Estate Studies427,REAL427,Admission to the Haskayne School of Business and 60 units including Finance 317.
 Real Estate Studies437,REAL437,Admission to the Haskayne School of Business and 60 units.
@@ -4647,7 +4198,6 @@ Real Estate Studies737,REAL737,Admission to the Master of Business Administratio
 Real Estate Studies747,REAL747,Admission to the Master of Business Administration and Marketing 601.
 Real Estate Studies767,REAL767,Admission to the Master of Business Administration program.
 Real Estate Studies789,REAL789,Admission to the Master of Business Administration and one of Real Estate Studies 707 or 757.
-course_name,course_code,prerequisites
 Religious Studies200,RELS200,
 Religious Studies201,RELS201,
 Religious Studies203,RELS203,
@@ -4738,7 +4288,6 @@ Religious Studies703,RELS703,
 Religious Studies705,RELS705,
 Religious Studies707,RELS707,
 Religious Studies709,RELS709,
-course_name,course_code,prerequisites
 Risk Management and Insurance317,RMIN317,"Admission to the Haskayne School of Business or the Actuarial Science program, and 30 units including Economics 201. "
 Risk Management and Insurance439,RMIN439,"Admission to the Haskayne School of Business or the Actuarial Science program, and Finance 317 or Risk Management and Insurance 317. "
 Risk Management and Insurance449,RMIN449,"Admission to the Haskayne School of Business or the Actuarial Science program, and Finance 317 or Risk Management and Insurance 317. "
@@ -4746,12 +4295,10 @@ Risk Management and Insurance459,RMIN459,Admission to the Haskayne School of Bus
 Risk Management and Insurance559,RMIN559,"Admission to the Haskayne School of Business and Risk Management and Insurance 317. For certain topics, consent of the Haskayne School of Business will also be required."
 Risk Management and Insurance579,RMIN579,Admission to the Haskayne School of Business and Risk Management and Insurance 317.
 Risk Management and Insurance763,RMIN763,Consent of the Haskayne School of Business.
-course_name,course_code,prerequisites
 Romance Studies299,ROST299,
 Romance Studies341,ROST341,
 Romance Studies399,ROST399,
 Romance Studies499,ROST499,"One of French 227, 317, Italian 303 or Spanish 303."
-course_name,course_code,prerequisites
 Russian201,RUSS201,
 Russian209,RUSS209,Russian 201 or 205.
 Russian301,RUSS301,"Russian 30, 30-3Y, 209."
@@ -4774,7 +4321,6 @@ Russian497,RUSS497,"Russian 397 and consent of the School of Languages, Linguist
 Russian551,RUSS551,"Consent of the School of Languages, Linguistics, Literatures and Cultures. Permission to enrol in this course depends on a faculty member's agreement to sponsor the project."
 Russian561,RUSS561,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
 Russian591,RUSS591,"Consent of the School of Languages, Linguistics, Literatures and Cultures."
-course_name,course_code,prerequisites
 School of Creative and Performing Arts290,SCPA290,"Admission to BA Dance, BFA Dance, BFA Drama, BA Music, BA Honours Music, or BMus."
 School of Creative and Performing Arts399,SCPA399,School of Creative and Performing Arts 290.
 School of Creative and Performing Arts401,SCPA401,"9 units in courses labelled Dance, Drama, Music, Music Performance or School of Creative and Performing Arts."
@@ -4784,7 +4330,6 @@ School of Creative and Performing Arts503,SCPA503,Consent of the School.
 School of Creative and Performing Arts599,SCPA599,School of Creative and Performing Arts 499.
 School of Creative and Performing Arts601,SCPA601,Consent of the School.
 School of Creative and Performing Arts603,SCPA603,Consent of the School.
-course_name,course_code,prerequisites
 Science301,SCIE301,24 units and admission to the Natural Sciences Program.
 Science311,SCIE311,Any 200-level course offered by the Faculty of Science.
 Science317,SCIE317,"One of Physics 211, 221 or 227; and one of Physics 223, 255, 259 or355."
@@ -4803,9 +4348,7 @@ Science511,SCIE511,Consent of the Faculty.
 Science529,SCIE529,"Engineering Energy and Environment 355 and 75 units and admission to the Energy and the Environment Specialization, the Energy Management Concentration or the Energy Science Concentration."
 Science601,SCIE601,Admission to a MSc or PhD program in the Faculty of Science and consent of the instructor.
 Science603,SCIE603,Science 601.
-course_name,course_code,prerequisites
 Slavic356,SLAV356,
-course_name,course_code,prerequisites
 Social Work201,SOWK201,
 Social Work300,SOWK300,
 Social Work301,SOWK301,
@@ -4893,7 +4436,6 @@ Social Work745,SOWK745,Admission to the Social Work PhD program or consent of th
 Social Work747,SOWK747,Admission to the Social Work PhD program or consent of the Faculty.
 Social Work749,SOWK749,Admission to the Social Work PhD program or consent of the Faculty.
 Social Work799,SOWK799,Admission to the Social Work PhD program.
-course_name,course_code,prerequisites
 Sociology201,SOCI201,
 Sociology301,SOCI301,Sociology 201.
 Sociology303,SOCI303,Sociology 201.
@@ -4965,7 +4507,6 @@ Sociology705,SOCI705, Consent of the Department.
 Sociology711,SOCI711, Consent of the Department.
 Sociology715,SOCI715, Consent of the Department.
 Sociology731,SOCI731, Consent of the Department.
-course_name,course_code,prerequisites
 Software Engineering300,SENG300,Computer Science 319 or 331.
 Software Engineering401,SENG401, Software Engineering 300 or 301 or Software Engineering for Engineers 480.
 Software Engineering437,SENG437, Software Engineering 301 or Software Engineering for Engineers 480.
@@ -4996,7 +4537,6 @@ Software Engineering643,SENG643,
 Software Engineering652,SENG652,"Consent of the Department.
  "
 Software Engineering696,SENG696,
-course_name,course_code,prerequisites
 Software Engineering for Engineers337,ENSF337,Engineering 233.
 Software Engineering for Engineers409,ENSF409,Computer Engineering 335 or 339 or Software Engineering for Engineers 337.
 Software Engineering for Engineers480,ENSF480,Software Engineering for Engineers 409 and Computer Engineering 369.
@@ -5020,14 +4560,11 @@ Software Engineering for Engineers612,ENSF612,"Software Engineering for Engineer
 Software Engineering for Engineers613,ENSF613,"Consent of the department.
  "
 Software Engineering for Engineers619,ENSF619,
-course_name,course_code,prerequisites
 South Asian Studies203,SAST203,
 South Asian Studies303,SAST303,South Asian Studies 203 or 315.
 South Asian Studies499,SAST499,"One of South Asian Studies 203, 303, 315 or 415."
 South Asian Studies531,SAST531,"One of South Asian Studies 203, 303, 315 or 415 and consent of the Program Co-ordinator."
-course_name,course_code,prerequisites
 Space Physics671,SPPH671,Note: It is expected that a student's background will include Physics 509 and 555 or equivalent.
-course_name,course_code,prerequisites
 Spanish201,SPAN201,
 Spanish203,SPAN203, Spanish 30 or 201.
 Spanish205,SPAN205,Spanish 30 or 201.
@@ -5076,7 +4613,6 @@ Spanish637,SPAN637,
 Spanish639,SPAN639,
 Spanish641,SPAN641,
 Spanish643,SPAN643,
-course_name,course_code,prerequisites
 Statistics205,STAT205,Mathematics 30-1 or 30-2 or Mathematics 2 (offered by Continuing Education). 
 Statistics213,STAT213,Mathematics 30-1 or Mathematics 2 (offered by Continuing Education).
 Statistics217,STAT217,Statistics 213.
@@ -5113,7 +4649,6 @@ Statistics701,STAT701,Admission to a graduate program in Mathematics and Statist
 Statistics703,STAT703,Statistics 701 and admission to a graduate program in Mathematics and Statistics or consent of the Department.
 Statistics721,STAT721,Admission to a graduate program in Mathematics and Statistics or consent of the Department.
 Statistics723,STAT723,Statistics 721 and admission to a graduate program in Mathematics and Statistics or consent of the Department.
-course_name,course_code,prerequisites
 Strategic Studies601,STST601,Admission to the co-operative education option of the MSS program.
 Strategic Studies602,STST602,Admission to the co-operative education option of the MSS program.
 Strategic Studies603,STST603,Admission to Military and Strategic Studies graduate program. 
@@ -5130,7 +4665,6 @@ Strategic Studies662,STST662,
 Strategic Studies663,STST663,
 Strategic Studies751,STST751, Consent of the Graduate Co-ordinator.
 Strategic Studies753,STST753, Consent of the Graduate Co-ordinator.
-course_name,course_code,prerequisites
 Strategy and Global Management217,SGMA217,Admission to the Haskayne School of Business.
 Strategy and Global Management371,SGMA371, Admission to the Haskayne School of Business and 24 units.
 Strategy and Global Management403,SGMA403,Admission to the Haskayne School of Business and 60 units.
@@ -5156,18 +4690,15 @@ Strategy and Global Management795,SGMA795, Strategy and Global Management 601 or
 Strategy and Global Management796,SGMA796,Consent of the Haskayne School of Business.
 Strategy and Global Management797,SGMA797, Consent of the Haskayne School of Business.
 Strategy and Global Management799,SGMA799,
-course_name,course_code,prerequisites
 Supply Chain Management451,SCMA451,"Admission to the Haskayne School of Business, Operations Management 317 and Management Studies 391."
 Supply Chain Management453,SCMA453,"Admission to the Haskayne School of Business, Operations Management 317 and Management Studies 391."
 Supply Chain Management455,SCMA455,"Admission to the Haskayne School of Business, Operations Management 317 and Management Studies 391."
 Supply Chain Management559,SCMA559,"Admission to the Haskayne School of Business, Operations Management 317 and Management Studies 391. For certain topics, consent of the Haskayne School of Business will also be required."
-course_name,course_code,prerequisites
 Sustainability Studies201,SUST201,
 Sustainability Studies401,SUST401,Sustainability Studies 201 or University 207.
 Sustainability Studies403,SUST403,Sustainability Studies 401.
 Sustainability Studies501,SUST501,Sustainability Studies 403 and enrolment in the embedded Certificate in Sustainability Studies.
 Sustainability Studies503,SUST503,Consent from the Academic Co-ordinator of Sustainability Studies.
-course_name,course_code,prerequisites
 Sustainable Energy Development601,SEDV601,Admission to the Sustainable Energy Development Program or consent of the Program.
 Sustainable Energy Development603,SEDV603,Admission to the Sustainable Energy Development Program or consent of the Program.
 Sustainable Energy Development605,SEDV605,Admission to the Sustainable Energy Development Program or consent of the Program.
@@ -5185,15 +4716,12 @@ Sustainable Energy Development640,SEDV640,Admission to the Sustainable Energy De
 Sustainable Energy Development641,SEDV641,Admission to the Sustainable Energy Development Program and Sustainable Energy Development 640. 
 Sustainable Energy Development642,SEDV642,Admission to the Sustainable Energy Development Program and Sustainable Energy Development 641.
 Sustainable Energy Development699,SEDV699,Admission to the Sustainable Energy Development Program or consent of the Program.
-course_name,course_code,prerequisites
 Term Abroad Program201,TAP201,
 Term Abroad Program203,TAP203,Term Abroad Program 201 or consent of the Faculty of Arts.
 Term Abroad Program301,TAP301,Term Abroad Program 203 or consent of the Faculty of Arts.
 Term Abroad Program303,TAP303,Term Abroad Program 301 or consent of the Faculty of Arts.
-course_name,course_code,prerequisites
 Tourism Management309,TOUR309, Admission to the Haskayne School of Business and 30 units.
 Tourism Management409,TOUR409,60 units.
-course_name,course_code,prerequisites
 Transportation Studies301,TRAN301,
 Transportation Studies303,TRAN303,
 Transportation Studies473,TRAN473, Transportation Studies 301 or both Engineering 319 and Civil Engineering 371; or consent of the instructor.
@@ -5202,7 +4730,6 @@ Transportation Studies503,TRAN503, Transportation Studies 303.
 Transportation Studies511,TRAN511," Economics 301, 357 and one of 315 or 395; or consent of the Transportation Studies Director."
 Transportation Studies513,TRAN513," Political Science 357, and one of 447 or 451 or consent of the instructor."
 Transportation Studies599,TRAN599, Consent of Program.
-course_name,course_code,prerequisites
 University05 ,UNIV05 ,Completed fewer than 18 units at the time of registration.
 University01 ,UNIV01 ,University 201 and completed fewer than 18 units at the time of registration.
 University01 ,UNIV01 ,
@@ -5214,12 +4741,10 @@ University01 ,UNIV01 ,
 University11 ,UNIV11 ,University 511.01.
 University13 ,UNIV13 ,Consent of the Course Co-ordinator.
 University615,UNIV615,
-course_name,course_code,prerequisites
 University Exchange200,UNEX200, Acceptance into an exchange program.
 University Exchange300,UNEX300, Acceptance into an exchange program.
 University Exchange400,UNEX400, Acceptance into an exchange program.
 University Exchange500,UNEX500, Acceptance into an exchange program.
-course_name,course_code,prerequisites
 Urban Studies253,UBST253,
 Urban Studies311,UBST311,"3 units from Urban Studies 253, Geography 253."
 Urban Studies313,UBST313,"3 units from Urban Studies 253, Geography 253, Anthropology 379, Sociology 353."
@@ -5232,7 +4757,6 @@ Urban Studies505,UBST505,Admission to Urban Studies major or minor and completio
 Urban Studies553,UBST553,Consent of the Department.
 Urban Studies591,UBST591,90 units and admission to the Urban Studies Major or Minor. 
 Urban Studies596,UBST596,Consent of the Department.
-course_name,course_code,prerequisites
 Veterinary Medicine300,VETM300,Admission to the Doctor of Veterinary Medicine (DVM) Program.
 Veterinary Medicine305,VETM305,Admission to the Doctor of Veterinary Medicine (DVM) Program.
 Veterinary Medicine307,VETM307,Admission to the Doctor of Veterinary Medicine (DVM) Program.
@@ -5327,10 +4851,8 @@ Veterinary Medicine702,VETM702,Students not enrolled in the VMS graduate program
 Veterinary Medicine721,VETM721,Consent of the instructor.
 Veterinary Medicine740,VETM740,"Veterinary Medicine 640 or consent of the Faculty.
    "
-course_name,course_code,prerequisites
 Wellbeing300,WELL300,Psychology 203 and admission to the Embedded Certificate in Mental Health and Wellbeing.
 Wellbeing400,WELL400,Wellbeing 300 and completion of 75 units.
-course_name,course_code,prerequisites
 Women's Studies201,WMST201,
 Women's Studies303,WMST303,
 Women's Studies305,WMST305,
@@ -5342,7 +4864,6 @@ Women's Studies405,WMST405,"3 units in courses labelled Women’s Studies.
 Women's Studies501,WMST501,Consent of the Department.
 Women's Studies503,WMST503,"Women's Studies 201, 405 and consent of the Department. "
 Women's Studies590,WMST590,"Admission to the Honours program in Women’s Studies and consent of the Department.	"
-course_name,course_code,prerequisites
 Zoology401,ZOOL401,Biology 371.
 Zoology403,ZOOL403,Biology 371. 
 Zoology435,ZOOL435,Biology 371.

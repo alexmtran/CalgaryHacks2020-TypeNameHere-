@@ -3,6 +3,12 @@ from bs4 import BeautifulSoup as soup
 import csv
 
 #downloads the webpage and closes it. saves it as page_html
+with open('courses.csv', 'w', newline='') as file:
+            fields = ['course_name','course_code', 'prerequisites']
+            writer = csv.DictWriter(file, delimiter=',', fieldnames=fields)
+
+            writer.writeheader()
+
 
 #MAKE A DICTIONARY OF THE WEBPAGES
 my_url = "https://www.ucalgary.ca/pubs/calendar/current/course-desc-main.html"
@@ -75,12 +81,9 @@ for key in my_dict:
         print()
 
     with open('courses.csv', 'a', newline='') as file:
-            fields = ['course_name','course_code', 'prerequisites']
-            writer = csv.DictWriter(file, delimiter=',', fieldnames=fields)
-
-            writer.writeheader()
-
-            for courseCode, course in courses.items():
-            	writer.writerow(course)
+        fields = ['course_name','course_code', 'prerequisites']
+        writer = csv.DictWriter(file, delimiter=',', fieldnames=fields)
+        for courseCode, course in courses.items():
+            writer.writerow(course)
 
 
