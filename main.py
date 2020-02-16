@@ -8,6 +8,7 @@ with open('courses.csv', newline='') as file:
 	for course in coursesInFile:
 		courses[course['course_code']] = course
 
+<<<<<<< HEAD
 def getPrerequisitesDeep(selectedCourse, courses, tree):
 	selectedCourse = courses[selectedCourse]
 
