@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as soup
 import csv
 
 #downloads the webpage and closes it. saves it as page_html
-my_url = "https://www.ucalgary.ca/pubs/calendar/current/computer-science.html"
+my_url = "https://www.ucalgary.ca/pubs/calendar/current/architectural-studies.html"
 uClient = uReq(my_url)
 page_html = uClient.read()
 uClient.close()
@@ -25,8 +25,8 @@ for course in course_codes:
     course = str(course)
 
     courses[course_count-1] = dict()
-    courses[course_count-1]['course_name'] = "Computer Science " + course[-7:-4]
-    courses[course_count-1]['course_code'] = "CPSC " + course[-7:-4]
+    courses[course_count-1]['course_name'] = "Architectural Studies " + course[-7:-4]
+    courses[course_count-1]['course_code'] = "ARST " + course[-7:-4]
 
 #grabs all prerequistes
 all_prerequisites = page_soup.findAll("td", {"class":"myCell"})
@@ -41,7 +41,10 @@ for course in range(len(all_prerequisites)):
         # print(m.string, end = "")
         prerequisite += m.string
     print(prerequisite)
-    courses[prerequisite_count-1]['prerequisites'] = prerequisite
+    try: 
+        courses[prerequisite_count-1]['prerequisites'] = prerequisite
+    except:
+        continue
     print()
 
 with open('courses.csv', 'w', newline='') as file:
