@@ -87,12 +87,10 @@ prerequisitesTree = getPrerequisites(selectedCourse, courses)
 importer = DictImporter()
 root = importer.import_(prerequisitesTree)
 
-RenderTreeGraph(root).to_picture("tree.png")
-print('`tree.png` has been generated.')
-
 try:
 	DotExporter(root).to_dotfile('tree-win32.dot')
-	render('dot', 'png', 'tree-win32.dot')
+	render('dot', 'png', 'tree-win32.dot') 
+	print('`tree.png` has been generated.')	
 except:
 	pass
 
@@ -117,12 +115,10 @@ while selectedCourse in courses:
 	importer = DictImporter()
 	root = importer.import_(prerequisitesTree)
 
-	RenderTreeGraph(root).to_picture("tree.png")
-	print('`tree.png` has been generated.')
-
 	try:
 		DotExporter(root).to_dotfile('tree-win32.dot')
 		render('dot', 'png', 'tree-win32.dot') 
+		print('`tree.png` has been generated.')
 	except:
 		pass
 
