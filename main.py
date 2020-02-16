@@ -1,64 +1,30 @@
-courses = {
-	'CPSC 481' : {
-		'course_name': 'Computer Science 481',
-		'course_code': 'CPSC 481',
-		'prerequisites': 'SENG 300|DATA 311'
-	},
-	'SENG 300' : {
-		'course_name': 'Software Engineering 300',
-		'course_code': 'CPSC 481',
-		'prerequisites': 'CPSC 319|CPSC 331'
-	},
+import csv
 
-	'CPSC 331' : {
-		'course_name': 'Computer Science 331',
-		'course_code': 'CPSC 331',
-		'prerequisites': 'CPSC 233;MATH 271|CPSC 233;MATH 273|CPSC 219;MATH 271|CPSC 219; MATH 273'
-	},
+courses = {}
 
-	'CPSC 319': {
-		'course_name': 'Computer Science 319',
-		'course_code': 'CPSC 319',
-		'prerequisites': 'CPSC 219|CPSC 233'
-	},
+with open('courses.csv', newline='') as file:
+	coursesInFile = csv.DictReader(file, delimiter=',')
+	
+	for course in coursesInFile:
+		courses[course['course_code']] = course
 
-	'CPSC 219': {
-		'course_name': 'Computer Science 219',
-		'course_code': 'CPSC 219',
-		'prerequisites': 'CPSC 217'
-	},
-
-	'CPSC 217': {
-		'course_name': 'Computer Science 219',
-		'course_code': 'CPSC 217',
-		'prerequisites': ''
-	},
-
-	'CPSC 233': {
-		'course_name': 'Computer Science 233',
-		'course_code': 'CPSC 233',
-		'prerequisites': 'CPSC 231'
-	},
-
-	'CPSC 231': {
-		'course_name': 'Computer Science 231',
-		'course_code': 'CPSC 231',
-		'prerequisites': ''
-	},
-}
 
 result = []
 
 def getPrerequisitesDeep(selectedCourse, courses):
 	selectedCourse = courses[selectedCourse]
 
-	if('prerequisites' not in selectedCourse.keys()):
+	if('prerequisites' not in selectedCourse.keys() or selectedCourse['prerequisites']  == ''):
 		return
 
 	choices = selectedCourse['prerequisites'].split('|')
 
-	print(choices)
-	choice = input('Select a choice (starting at 0 from left to right):')
+	# If there's only one choice, automatically select that one.
+	if len(choices) > 1:
+		print(choices)
+		choice = input('Select a choice (starting at 0 from left to right):')
+	else:
+		choice = 0
 
 	choice = choices[int(choice)]
 
