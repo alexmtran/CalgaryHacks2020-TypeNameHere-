@@ -7,4 +7,4 @@ You must install the following packages:
 
 
 You will then run the main program with the courses.csv in the same directory
-and follow the instructions. Runs in Python3. Use `for-windows` branch for Windows. :D
+and follow the instructions. Runs in Python3. Use `for-windows` branch for Windows. It will generate a dot tree file but not generate an image file.
