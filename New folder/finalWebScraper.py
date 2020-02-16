@@ -2,56 +2,6 @@ from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import csv
 
-import itertools
-
-def translate(string):
-
-    string = string[:len(string)-1] # removes period
-
-
-#seperates string into AND pieces
-    if '; and ' in string:
-        stringList = string.split('; and ')
-    if '; ' in string:
-        stringList = string.split('; ')
-    else:
-        stringList = string.split(' and ')
-#print(stringList)
-
-#Seperates each individual AND piece into it's seperate OR pieces    
-    for i in range(len(stringList)):
-    
-        if 'one of ' in stringList[i]:
-            stringList[i] = stringList[i][7:]
-            stringList[i] = stringList[i][:stringList[i].find(' or ')]+', '+stringList[i][stringList[i].find(' or ')+4:]
-            stringList[i] = stringList[i].split(", ")
-        #print(stringList[i])
-        else:
-            stringList[i] = stringList[i].split(" or ")
-
-
-    for i in range(len(stringList)):
-        for j in range(len(stringList[i])):
-            name = ''
-            if len(stringList[i][j])>3:
-                name = stringList[i][j][:-4]
-            else:
-                stringList[i][j] =  name + ' ' + stringList[i][j]          
-                            
-    
-
-
-
-    all_prereqs = list(itertools.product(*stringList))
-    stringToGo = ''
-    for i in all_prereqs:
-        for j in range(len(i)-1):
-            stringToGo += i[j] + ';'
-        stringToGo += i[len(i)-1]+'|'
-    stringToGo = stringToGo[:-1]
-    return stringToGo    
-
-
 #downloads the webpage and closes it. saves it as page_html
 with open('courses.csv', 'w', newline='') as file:
             fields = ['course_name','course_code', 'prerequisites']
@@ -123,7 +73,6 @@ for key in my_dict:
         for m in (prerequisites.contents):
         # print(m.string, end = "")
             prerequisite += m.string
-        prerequisite = translate(prerequisite)
         print(prerequisite)
         try: 
             courses[prerequisite_count-1]['prerequisites'] = prerequisite
