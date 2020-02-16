@@ -8,14 +8,11 @@ with open('courses.csv', newline='') as file:
 	for course in coursesInFile:
 		courses[course['course_code']] = course
 
-
-result = []
-
-def getPrerequisitesDeep(selectedCourse, courses):
+def getPrerequisitesDeep(selectedCourse, courses, tree):
 	selectedCourse = courses[selectedCourse]
 
 	if('prerequisites' not in selectedCourse.keys() or selectedCourse['prerequisites']  == ''):
-		return
+		return selectedCourse['course_code']
 
 	choices = selectedCourse['prerequisites'].split('|')
 
@@ -27,19 +24,24 @@ def getPrerequisitesDeep(selectedCourse, courses):
 		choice = 0
 
 	choice = choices[int(choice)]
-
 	prerequisites = choice.split(';')
 
 	for prerequisite in prerequisites:
-		global result
-		result.append(prerequisite)
+		tree[prerequisite] = dict()
 		
 		if(prerequisite in courses):
-			getPrerequisitesDeep(prerequisite, courses)
+			getPrerequisitesDeep(prerequisite, courses, tree[prerequisite])
 
+def getPrerequisites(selectedCourse, courses):
+	prerequisites = {
+		selectedCourse: dict()
+	}
+
+	getPrerequisitesDeep(selectedCourse, courses, prerequisites[selectedCourse])
+
+	return prerequisites
 
 selectedCourse = input('select a course:')
 
-getPrerequisitesDeep(selectedCourse, courses)
-
-print(result)
+prerequisitesTree = getPrerequisites(selectedCourse, courses)
+print(prerequisitesTree)
