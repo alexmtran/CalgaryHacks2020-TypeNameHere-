@@ -1,4 +1,7 @@
 import csv
+from anytree.importer import DictImporter
+from anytree.dotexport import RenderTreeGraph
+from anytree import RenderTree
 
 courses = {}
 
@@ -28,20 +31,25 @@ def getPrerequisitesDeep(selectedCourse, courses, tree):
 	prerequisites = choice.split(';')
 
 	for index, prerequisite in enumerate(prerequisites):
+
+		tree.append({
+			prerequisite: prerequisite,
+			'name': prerequisite,
+			'children': []
+		})
+
 		if(prerequisite in courses):
-			tree.append({
-				prerequisite: prerequisite,
-				'children': []
-			})
+			print(prerequisite)
 
-			print('the tree at:' + str(index-1))
-			print(tree[index-1])
+			print('the tree at:' + str(index))
+			print(tree[index])
 
-			getPrerequisitesDeep(prerequisite, courses, tree[index-1]['children'])
+			getPrerequisitesDeep(prerequisite, courses, tree[index]['children'])
 
 def getPrerequisites(selectedCourse, courses):
 	prerequisites = {
 		selectedCourse: selectedCourse,
+		'name': selectedCourse,
 		'children': []
 	}
 
@@ -53,3 +61,9 @@ selectedCourse = input('select a course:')
 
 prerequisitesTree = getPrerequisites(selectedCourse, courses)
 print(prerequisitesTree)
+
+importer = DictImporter()
+root = importer.import_(prerequisitesTree)
+print(RenderTree(root))
+
+RenderTreeGraph(root).to_picture("tree.png")
