@@ -49,31 +49,42 @@ courses = {
 
 result = []
 
-def getPrerequisitesDeep(selectedCourse, courses):
+def getPrerequisitesDeep(list, selectedCourse, courses):
+	toReturn = []
 	selectedCourse = courses[selectedCourse]
 
+
 	if('prerequisites' not in selectedCourse.keys()):
-		return
+		return None
 
 	choices = selectedCourse['prerequisites'].split('|')
 
-	print(choices)
-	choice = input('Select a choice (starting at 0 from left to right):')
+	if len(choices) == 1:
+		list.append([choices[0]]);
+		return None
 
-	choice = choices[int(choice)]
+	else:
+		print(choices)
+		choice = input('Select a choice (starting at 0 from left to right):')
 
-	prerequisites = choice.split(';')
+		choice = choices[int(choice)]
+
+		prerequisites = choice.split(';')
 
 	for prerequisite in prerequisites:
 		global result
-		result.append(prerequisite)
-		
+		toReturn.append(prerequisite)
+		list.append(toReturn)
+		print('HI')
+
 		if(prerequisite in courses):
-			getPrerequisitesDeep(prerequisite, courses)
+			getPrerequisitesDeep(toReturn, prerequisite, courses)
+			global result
+			print(result)
+			print(1)
 
-
+print(type(''))
 selectedCourse = input('select a course:')
 
-getPrerequisitesDeep(selectedCourse, courses)
-
+getPrerequisitesDeep(result, selectedCourse, courses)
 print(result)
